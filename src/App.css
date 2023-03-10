@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div.card{
+  width: 25%;
+  margin: 25px;
+  border-radius: 3%;
+  padding: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.all-element{
+
+  background-image: linear-gradient(rgba(136, 140, 217, 0.683), rgb(245, 245, 242));
+  margin: 40px ;
+}
+div.element{
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 40px 25px;
+  
+  
+}
+.card-img-top{
+  border-radius: 6%;
+  height: 30vh;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 25px rgb(43, 64, 70);
+  cursor: pointer;
+  width: 25.5%;
+
+}
+.navbar-brand{
+ 
+  font-size: 25px;
+  background: -webkit-linear-gradient(#1d37c9, #f7f5f5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar-brand:hover{
+ 
+  font-size: 25px;
+  background: -webkit-linear-gradient( #f7f5f5,#280e8f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-item:hover .dropdown-menu{
+  display:block;
+}
