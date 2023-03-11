@@ -37,7 +37,7 @@ export default function Navbar() {
             DSA
           </Link>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Array</a></li>
+            <li><Link className="dropdown-item" to="/dsa/array">Array</Link></li>
             <li><a className="dropdown-item" href="/">Linked List</a></li>
             <li><a className="dropdown-item" href="/">Stack</a></li>
             <li><a className="dropdown-item" href="/">Queue</a></li>
