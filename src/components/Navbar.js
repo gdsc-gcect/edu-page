@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function Navbar() {
   
   return (
     <>
     <div className='navbar-fix'>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">EDU-PAGE</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +33,9 @@ export default function Navbar() {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="/form" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle" to="/dsa" >
             DSA
-          </a>
+          </Link>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/">Array</a></li>
             <li><a className="dropdown-item" href="/">Linked List</a></li>
@@ -47,7 +49,7 @@ export default function Navbar() {
    
 
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/">Advanced Data Structure</a></li>
+            <li><a className="dropdown-item" href="/" >Advance Data Structures</a></li>
           </ul>
         </li>
         <li className="nav-item dropdown">
