@@ -1,8 +1,19 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
+  const [count, setCount] = useState("none");
+  const navexpand=() =>{ 
+    
+    count==="none"?setCount("block"):setCount("none");
+    
+    
+  }
+  const st = {
+   display:count
+    
+}
   
   return (
     <>
@@ -10,46 +21,48 @@ export default function Navbar() {
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">EDU-PAGE</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={navexpand}>
       <span className="navbar-toggler-icon"></span>
+      
+      
     </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div className="collapse navbar-collapse" id="navbarSupportedContent" style={st}>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About us</a>
+          <Link className="nav-link" to="/about" onClick={st}>About us</Link>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Programming
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Action</a></li>
-            <li><a className="dropdown-item" href="/">Another action</a></li>
+            <li><a className="dropdown-item" href="/" onClick={st}>Action</a></li>
+            <li><a className="dropdown-item" href="/" onClick={st}>Another action</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/">Something else here</a></li>
+            <li><a className="dropdown-item" href="/" onClick={st}>Something else here</a></li>
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="/dsa" >
+        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             DSA
-          </Link>
+          </a>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/dsa/array">Array</Link></li>
-            <li><a className="dropdown-item" href="/">Linked List</a></li>
-            <li><a className="dropdown-item" href="/">Stack</a></li>
-            <li><a className="dropdown-item" href="/">Queue</a></li>
-            <li><a className="dropdown-item" href="/">Binary Tree</a></li>
-            <li><a className="dropdown-item" href="/">Binary Search Tree</a></li>
-            <li><a className="dropdown-item" href="/">Heap</a></li>
-            <li><a className="dropdown-item" href="/">Hashing</a></li>
-            <li><a className="dropdown-item" href="/">Graph</a></li>
+            <li><Link className="dropdown-item" to="/dsa/array" onClick={st}>Array</Link></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Linked List</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Stack</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Queue</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Binary Tree</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Binary Search Tree</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Heap</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Hashing</a></li>
+            <li><a className="dropdown-item" href="/"onClick={st}>Graph</a></li>
    
 
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/" >Advance Data Structures</a></li>
+            <li><Link className="dropdown-item" to="/dsa" style={{color:"#280e8f"}}>All Data Structures</Link></li>
           </ul>
         </li>
         <li className="nav-item dropdown">
@@ -57,10 +70,10 @@ export default function Navbar() {
             CS/IT Core Subjects
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Action</a></li>
-            <li><a className="dropdown-item" href="/">Another action</a></li>
+            <li><a className="dropdown-item" href="/" onClick={st}>Action</a></li>
+            <li><a className="dropdown-item" href="/" onClick={st}>Another action</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/">Something else here</a></li>
+            <li><a className="dropdown-item" href="/" onClick={st}>Something else here</a></li>
           </ul>
         </li>
         
