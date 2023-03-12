@@ -41,53 +41,6 @@
     transform: rotate(360deg);
   }
 }
- /* body{
-  display: flex;
-    width:100vw;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- }
- 
-       
-button{
-  margin:10px;
-    border:none;
-    border-radius: 30px;
-    color:rgb(255, 255, 255);
-    font-size: 20px;
-    padding:11px 40px;
-    background:
-    linear-gradient(rgb(39, 84, 133), transparent),
-        linear-gradient(to  left, rgb(6, 174, 87), transparent),
-        linear-gradient(to  right, rgb(6, 37, 150), transparent);
-    background-blend-mode: screen;
-    font-family:  sans-serif;
-    cursor:pointer;
-   
-}
-
-
-
-textarea{
-  width: 833px; 
-  height: 165px;
-}
-div.container{
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-}
-div.sw {
-  text-align: right;
-  padding: 3rem 0rem 3rem 3rem;
-  width: 24%;
-  margin: 0px 0px 0px auto;
-} */
-
-
-
-
 
 
 div.card{
@@ -330,7 +283,58 @@ a.items-dsa{
  .table-content{
   margin: 50px;
  }
-
- .dsa-page {
-  padding-top: 40px;
+ @media screen and (max-width: 1145px) {
+  div.element {
+    display: block;
+    padding: 0;
+  }
+  div.card{
+    width:95%;
+    display: block;
+  }
+  .all-element{
+    margin: 0;
+    
+  }
+  .card:hover{
+    
+    width: 95%;
+  
+  }
+  .array-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.book-img {
+  margin: 21px;
+  width: 404px;
+  height: 404px;
+}
+.book-name {
+ color:#0d0c03;
+}
+.book-details {
+  
+  color: #5f5714;
+}
+.table-content {
+   margin: 50px; 
+  width: 150%;
+  
+}
+.jumbotron {
+  background-image: none;
+}
+.dsa-item {
+  width: 100%;}
+}
+.about-links{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.about-links li{
+  margin-left: 4px;
 }

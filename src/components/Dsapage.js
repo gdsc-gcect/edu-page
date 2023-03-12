@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Dsapage() {
   return (
     <>
+    <div className='dsa-page'>
     <div className='main-side-heading' style={{backgroundImage:`url(${bg})`}}>
       <div><img src={dsal} className="side-img" alt="..."/></div>
     </div>
@@ -42,7 +43,7 @@ export default function Dsapage() {
       <div className='dsa-item' id='' href='/'>
        <a className='items-dsa' href='/'> DYNAMIC PROGRAMMING</a>
       </div>
-      
+      </div>
     </div>
    
     </>
