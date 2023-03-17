@@ -8,73 +8,51 @@ export default function Array() {
     <>
     <div className='array-page'>
         <div className='mid'>
-            <ul id='array-q'>
-                <li>
-                     <label for="first">What is Array?<span>&#x3e;</span></label>
-                    <div className="q-ans">
-                        <p>
-                            An array is a collection of similar data elements. These data elements have the same data type. 
-                            The elements of the array are stored in consecutive memory locations and are referenced by an 
-                            index (also known as the subscript).
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <label for="first">In C, arrays are declared using the following syntax:<span>&#x3e;</span>
-                    </label>
-                    <div className="q-ans">
-                        <p>
-                             type name[size];<br/>
-                             For example,<br/>
-                             int array[100];
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="flse" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
 
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <label for="first">Arrays are generally used when we want to store large amount of similar type of data. But they 
-                    have the following limitations:<span>&#x3e;</span></label>
-                    <div className="q-ans">
-                        <p>
-                            Arrays are of fixed size.<br/>
-                            Data elements are stored in contiguous memory locations which may not be always available.<br/>
-                            Insertion and deletion of elements can be problematic because of shifting of elements from 
-                            their positions.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <label for="first">Arrays are generally used when we want to store large amount of similar type of data. But they 
-                    have the following limitations:<span>&#x3e;</span></label>
-                    <div className="q-ans">
-                        <p>
-                            Arrays are of fixed size.<br/>
-                            Data elements are stored in contiguous memory locations which may not be always available.<br/>
-                            Insertion and deletion of elements can be problematic because of shifting of elements from 
-                            their positions.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <label for="first">Arrays are generally used when we want to store large amount of similar type of data. But they 
-                    have the following limitations:<span>&#x3e;</span></label>
-                    <div className="q-ans">
-                        <p>
-                            Arrays are of fixed size.<br/>
-                            Data elements are stored in contiguous memory locations which may not be always available.<br/>
-                            Insertion and deletion of elements can be problematic because of shifting of elements from 
-                            their positions.
-                        </p>
-                    </div>
-                </li>
-                
-            </ul>
         </div>
         <div className='side'>
             <div class="jumbotron">
                 <img src={rem} className="book-img" alt="..." />
-                <div className='details' style={{paddingTop:"30px"}}>
-                    <p class="lead" style={{margin:"10px"}}>
+                <div className='details' >
+                    <p class="lead" >
                         <p className='book-name'>Data Structure Using C</p>
                         <p className='book-details'>Rema Thareja | 557 Pages | 18.4 MB | English</p>
                     </p>
@@ -85,8 +63,8 @@ export default function Array() {
             </div>
             <div class="jumbotron">
                 <img src={cor} className="book-img" alt="..."/>
-                <div className='details' style={{paddingTop:"30px"}}>
-                    <p class="lead" style={{margin:"10px"}}>
+                <div className='details' >
+                    <p className="lead" >
                         <p className='book-name'>
                         Introduction to Algorithms, Third Edition</p>
                         <p className='book-details'>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, 
@@ -99,10 +77,10 @@ export default function Array() {
             </div>
          </div>
     </div>
-    <div className='table-content'>
+    <div className='table-content' style={{width:"100%"}}>
     <p className="practice">Practice Problems</p>
 <table class="table table-striped">
-  <thead>
+  <thead >
     <tr>
       <th scope="col" className='num'>#</th>
       <th scope="col"className='prob-name'>Title</th>
