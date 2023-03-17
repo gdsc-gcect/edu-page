@@ -103,7 +103,7 @@ div.card{
   background-image: linear-gradient(rgba(136, 140, 217, 0.683), rgb(245, 245, 242));
   margin: 0px ;
   margin-top: 50px;
-  padding-top:50px ;
+  padding-top:13px ;
 }
 div.element{
   display:flex;
@@ -151,7 +151,7 @@ div.element{
 .side-img{
   width: 90%;
   height:90%;
-  margin: 40px;
+  margin: 40px 40px 10px 10px;
 }
 .dsa-element{
   display:flex;
