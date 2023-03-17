@@ -53,9 +53,9 @@ export default function Navbar(props) {
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/dsa/array" onClick={st}>Array</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Linked List</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Stack</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Queue</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/linked" onClick={st}>Linked List</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/stack"onClick={st}>Stack</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/queue"onClick={st}>Queue</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Binary Tree</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Binary Search Tree</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Heap</Link></li>
