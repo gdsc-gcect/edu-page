@@ -9,6 +9,9 @@ import Dsapage from './components/Dsapage';
 import Array from './components/Array';
 import About from './components/About';
 import Footer from './components/Footer';
+import Linked from './components/Linked';
+import Stack from './components/Stack';
+import Queue from './components/Queue';
 function App() {
   const [mode,setMode] = useState('black');
   const [alert,setAlert] =useState(null);
@@ -50,6 +53,9 @@ function App() {
       <Route exact path='/dsa' element={<Dsapage/>}/>
       <Route exact path='/about' element={<About />}/>
       <Route exact path='/dsa/array' element={<Array/>}/>
+      <Route exact path='/dsa/linked' element={<Linked/>}/>
+      <Route exact path='/dsa/stack' element={<Stack/>}/>
+      <Route exact path='/dsa/queue' element={<Queue/>}/>
       
           
        </Routes>  
