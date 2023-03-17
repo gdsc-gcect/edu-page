@@ -6,11 +6,40 @@ import python from './python.png';
 import cpp from './cpp.png';
 import java from './java.webp';
 import Algo from './Algorithms.jpg';
+import el from './el.webp';
+import big from './bigstock.webp';
+import be from './BE.png';
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <>
     <div className='all-element'>
+    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{margin:" 0px", width:"100%",padding:"0px"}}>
+        <div className="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div className="carousel-inner">
+            <div className="carousel-item active" >
+                <img src={be} className="d-block w-100 " height="520" alt="..."  />
+            </div>
+            <div className="carousel-item" >
+                <img src={el} className="d-block w-100 " height="520" alt="..."   />
+            </div>
+        <div className="carousel-item" >
+             <img src={big} className="d-block w-100 " height="520" alt="..."  />
+        </div>
+    </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+        </button>
+    </div>
     <div className='element'>
       <div className="card"  >
       <img src={c} className="card-img-top" alt="..."/>
