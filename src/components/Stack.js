@@ -3,7 +3,8 @@ import rema from './rema thareja.pdf';
 import cormen from './Introduction_to_Algorithms_Third_Edition_(2009).pdf';
 import rem from './rema.jpg';
 import cor from './cormen.jpg';
-export default function Linked() {
+
+export default function Stack() {
   return (
     <>
     <div className='array-page'>
@@ -152,6 +153,7 @@ export default function Linked() {
 </table>
 </div>
 </>
+  
   
   )
 }
