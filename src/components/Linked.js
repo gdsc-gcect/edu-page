@@ -66,6 +66,7 @@ export default function Linked() {
   </div>
 </div>
 
+
         </div>
         <div className='side'>
             <div className="jumbotron">
