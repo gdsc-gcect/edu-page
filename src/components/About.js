@@ -13,7 +13,7 @@ export default function About() {
     <hr className="featurette-divider"/>
     <div className="row featurette"style={{width:"100%"}}>
       <div className="col-md-7">
-            <h2 className="featurette-heading">First featurette heading. <span class="text-muted">It will blow your mind.</span></h2>
+            <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It will blow your mind.</span></h2>
             <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
         </div>
       <div className="col-md-5">
@@ -49,45 +49,45 @@ export default function About() {
                 <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={java} alt="..."></img>
                 <h2>Heading</h2>
                 <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                <p><ul className='about-links'>
-                <li><a  class="fa fa-linkedin" href="#" target="_blank"rel="noreferrer"> </a></li>
-                        <li><a class="fa fa-github" href="#"target="_blank"rel="noreferrer"> </a></li>
-                        <li><a href = "#"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
-                    </ul></p>
+                <div><ul className='about-links'>
+                <li><a  className="fa fa-linkedin" href="/" target="_blank"rel="noreferrer"> </a></li>
+                        <li><a className="fa fa-github" href="/"target="_blank"rel="noreferrer"> </a></li>
+                        <li><a href = "/"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
+                    </ul></div>
             </div>
             <div className="col-lg-3">
                 <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={java} alt="..."></img>
                 <h2>Heading</h2>
                 <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                <p><ul className='about-links'>
-                <li><a  class="fa fa-linkedin" href="#" target="_blank"rel="noreferrer"> </a></li>
-                        <li><a class="fa fa-github" href="#"target="_blank"rel="noreferrer"> </a></li>
-                        <li><a href = "#"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
-                    </ul></p>
+                <div><ul className='about-links'>
+                <li><a  className="fa fa-linkedin" href="/" target="_blank"rel="noreferrer"> </a></li>
+                        <li><a className="fa fa-github" href="/"target="_blank"rel="noreferrer"> </a></li>
+                        <li><a href = "/"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
+                    </ul></div>
             </div>
             <div className="col-lg-3">
                 <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={java}  alt="..."></img>
                 <h2>Heading</h2>
                 <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                <p>
+                <div>
                 
                     <ul className='about-links'>
-                        <li><a  class="fa fa-linkedin" href="#" target="_blank"rel="noreferrer"> </a></li>
-                        <li><a class="fa fa-github" href="#"target="_blank"rel="noreferrer"> </a></li>
-                        <li><a href = "#"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
+                        <li><a  className="fa fa-linkedin" href="/" target="_blank"rel="noreferrer"> </a></li>
+                        <li><a className="fa fa-github" href="/"target="_blank"rel="noreferrer"> </a></li>
+                        <li><a href = "/"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
                     </ul>
                    
-                    </p>
+                    </div>
             </div>
             <div className="col-lg-3">
                 <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={java} alt="..."></img>
                 <h2>Heading</h2>
                 <p>And lastly this, the third column of representative placeholder content.This time, we've moved on to the second column.</p>
-                <p><ul className='about-links'>
-                <li><a  class="fa fa-linkedin" href="#" target="_blank"rel="noreferrer"> </a></li>
-                        <li><a class="fa fa-github" href="#"target="_blank"rel="noreferrer"> </a></li>
-                        <li><a href = "#"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
-                    </ul></p>
+                <div><ul className='about-links'>
+                <li><a  className="fa fa-linkedin" href="/" target="_blank"rel="noreferrer"> </a></li>
+                        <li><a className="fa fa-github" href="/"target="_blank"rel="noreferrer"> </a></li>
+                        <li><a href = "/"target="_blank"rel="noreferrer"> <img className="fa fa-email"  src={email} alt="..."/></a></li>
+                    </ul></div>
              </div>
         </div>
     </div>
