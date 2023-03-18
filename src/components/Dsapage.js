@@ -13,21 +13,19 @@ export default function Dsapage() {
       <div className='dsa-item' id='' href='/dsa/array'>
        <Link className='items-dsa' to='/dsa/array'> ARRAY</Link>
       </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> LINKED LIST</a>
+      <div className='dsa-item' id='' href='/dsa/linked'>
+       <Link className='items-dsa' to='/dsa/linked'> LINKED LIST</Link>
       </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> STACK</a>
+      <div className='dsa-item' id='' href='/dsa/stack'>
+       <Link className='items-dsa' to='/dsa/stack'> STACK</Link>
       </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> QUEUE</a>
+      <div className='dsa-item' id='' href='/dsa/queue'>
+       <Link className='items-dsa' to='/dsa/queue'> QUEUE</Link>
       </div>
       <div className='dsa-item' id='' href='/'>
        <a className='items-dsa' href='/'> BINARY TREE</a>
       </div>
       
-   
-    
       <div className='dsa-item' id='' href='/'>
        <a className='items-dsa' href='/'> BINARY SEARCH TREE</a>
       </div>
