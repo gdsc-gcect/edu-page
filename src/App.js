@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import Linked from './components/Linked';
 import Stack from './components/Stack';
 import Queue from './components/Queue';
+import Programming from './components/Programming';
+import C from './components/C';
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -56,7 +58,8 @@ function App() {
       <Route exact path='/dsa/linked' element={<Linked/>}/>
       <Route exact path='/dsa/stack' element={<Stack/>}/>
       <Route exact path='/dsa/queue' element={<Queue/>}/>
-      
+      <Route exact path='/programming' element={<Programming/>}/>
+      <Route exact path='/programming/c' element={<C/>}/>
           
        </Routes>  
        <Footer/>

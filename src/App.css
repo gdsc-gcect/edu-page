@@ -402,3 +402,46 @@ a.items-dsa{
  
 }
 
+.side-lan{
+  width: 18%;
+  margin-top: 5px;
+  float: left;
+  background-color: #ad99997a;
+  padding: 10px 15px;
+  display:flex;
+  justify-content: center;
+}
+.program-que-ans {
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 4px;
+  width: 80%;
+  float: left;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+@media screen and (max-width: 700px) {
+  .side-lan,.program-que-ans {
+    width: 100%;
+  }
+  .program-page{
+    flex-direction: column;
+  }
+
+}
+ul{
+  list-style: none;
+
+}
+ul li{
+  text-decoration: none;
+}
+.lan-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #4e555f;
+  text-decoration: none;
+}
+.program-page{
+  display:flex;
+}
