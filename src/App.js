@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import Linked from './components/Linked';
 import Stack from './components/Stack';
 import Queue from './components/Queue';
+import Binary from './components/Binary';
+import Heap from './components/Heap';
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -51,11 +53,13 @@ function App() {
           
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/dsa' element={<Dsapage/>}/>
-      <Route exact path='/about' element={<About />}/>
+      <Route exact path='/about' element={<About/>}/>
       <Route exact path='/dsa/array' element={<Array/>}/>
       <Route exact path='/dsa/linked' element={<Linked/>}/>
       <Route exact path='/dsa/stack' element={<Stack/>}/>
       <Route exact path='/dsa/queue' element={<Queue/>}/>
+      <Route exact path='/dsa/binary' element={<Binary/>}/>
+      <Route exact path='/dsa/heap' element={<Heap/>}/>
       
           
        </Routes>  

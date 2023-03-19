@@ -56,9 +56,9 @@ export default function Navbar() {
             <li><Link className="dropdown-item" to="/dsa/linked" onClick={st}>Linked List</Link></li>
             <li><Link className="dropdown-item" to="/dsa/stack"onClick={st}>Stack</Link></li>
             <li><Link className="dropdown-item" to="/dsa/queue"onClick={st}>Queue</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Binary Tree</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/binary"onClick={st}>Binary Tree</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Binary Search Tree</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Heap</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/heap"onClick={st}>Heap</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Hashing</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Graph</Link></li>
    
