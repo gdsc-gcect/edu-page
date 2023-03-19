@@ -3,7 +3,8 @@ import rema from './rema thareja.pdf';
 import cormen from './Introduction_to_Algorithms_Third_Edition_(2009).pdf';
 import rem from './rema.jpg';
 import cor from './cormen.jpg';
-export default function BinarySearchtree() {
+
+export default function Binarysearchtree() {
   return (
     <>
     <div className='array-page'>
@@ -31,22 +32,22 @@ export default function BinarySearchtree() {
     <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
       <div className="accordion-body">
       Time complexity -
-Insertion : O(n)
-Searching (h) (h: Height of the binary search tree)
-Deletion : O(n)
+Insertion : <strong>O(n)</strong><br></br>
+Searching (h) (h: Height of the binary search tree)<br></br>
+Deletion :  <strong>O(n)</strong>
       </div>
     </div>
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="panelsStayOpen-headingThree">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        <strong>Time Complexity of binary search tree algorithm</strong>
+        <strong>Space Complexity of binary search tree algorithm</strong>
         
       </button>
     </h2>
     <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
       <div className="accordion-body">
-      Space complexity: O(h), where h is the height of the BST. This is because the maximum amount of space needed to store the recursion stack would be h.
+      Space complexity: <strong>O(h)</strong>, where h is the height of the BST. This is because the maximum amount of space needed to store the recursion stack would be h.
       </div>
     </div>
   </div>
@@ -58,7 +59,7 @@ Deletion : O(n)
     </h2>
     <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
       <div className="accordion-body">
-      There are several methods of traversing trees. Among them are the inorder, preorder and postorder traversal of nodes.
+      There are several methods of traversing trees. Among them are the <strong>inorder, preorder and postorder </strong>traversal of nodes.
       </div>
     </div>
   </div>
@@ -108,13 +109,13 @@ Every AVL tree is a binary search tree because the AVL tree follows the property
   <div className="accordion-item">
     <h2 className="accordion-header" id="panelsStayOpen-headingEight">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        <strong>What are the advantages of BST?
+        <strong>How many types of binary search trees are there?
 </strong>
       </button>
     </h2>
     <div id="panelsStayOpen-collapseEight" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
       <div className="accordion-body">
-      When balanced, BST is quick at insertion and deletion. It has a temporal complexity of O and is quick (log n). BST is another tool for quick searching, with most operations having an O(log n) time complexity. BST works efficiently.
+      there are two types of skewed binary tree: <strong>left-skewed</strong> binary tree and <strong>right-skewed </strong>binary tree.
       </div>
     </div>
   </div>
@@ -130,9 +131,9 @@ Every AVL tree is a binary search tree because the AVL tree follows the property
       <div className="accordion-body">
       A binary search tree, also known as ordered binary tree is a binary tree wherein the nodes are arranged in a order. The order is :
 
-a) All the values in the left sub-tree has a value less than that of the root node.
+<br></br>a) All the values in the left sub-tree has a value less than that of the root node.<br></br>
 
-b) All the values in the right node has a value greater than the value of the root node.
+b) All the values in the right node has a value greater than the value of the root node.<br></br>
 
 c) The same rule is carried forward to all the sub-tree in tree.
 
@@ -229,6 +230,25 @@ c) The same rule is carried forward to all the sub-tree in tree.
                   <td className='prob-name'> longest root-to-leaf path</td>
                   <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://www.hackerrank.com/challenges/30-binary-search-trees/problem" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
                 </tr>
+
+                <tr>
+                  <th scope="row" className='num'>6</th>
+                  <td className='prob-name'> Binary Tree Preorder Traversal</td>
+                  <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/binary-tree-preorder-traversal/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+                </tr>
+
+                <tr>
+                  <th scope="row" className='num'>7</th>
+                  <td className='prob-name'> Binary Tree Inorder Traversal</td>
+                  <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/binary-tree-inorder-traversal/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+                </tr>
+
+                <tr>
+                  <th scope="row" className='num'>8</th>
+                  <td className='prob-name'> Binary Tree Postorder Traversal</td>
+                  <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/binary-tree-postorder-traversal/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+                </tr>
+
     
   </tbody>
 </table>
