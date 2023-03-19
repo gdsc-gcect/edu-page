@@ -43,7 +43,7 @@ export default function Navbar() {
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/programming/c" onClick={st}>C</Link></li>
             <li><Link className="dropdown-item" to="/" onClick={st}>C++</Link></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>Python</Link></li>
+            <li><Link className="dropdown-item" to="/programming/python" onClick={st}>Python</Link></li>
             <li><Link className="dropdown-item" to="/" onClick={st}>Java</Link></li>
             <li><Link className="dropdown-item" to="/" onClick={st}>JavaScript</Link></li>
             <li><hr className="dropdown-divider"/></li>
@@ -60,9 +60,9 @@ export default function Navbar() {
             <li><Link className="dropdown-item" to="/dsa/stack"onClick={st}>Stack</Link></li>
             <li><Link className="dropdown-item" to="/dsa/queue"onClick={st}>Queue</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Binary Tree</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Binary Search Tree</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/binarysearchtree" onClick={st}>Binary Search Tree</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Heap</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Hashing</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/hashing" onClick={st}>Hashing</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Graph</Link></li>
    
 

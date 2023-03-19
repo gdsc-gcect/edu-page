@@ -445,3 +445,6 @@ ul li{
 .program-page{
   display:flex;
 }
+.MsoNormal{
+  list-style: disc;
+}

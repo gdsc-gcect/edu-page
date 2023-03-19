@@ -11,9 +11,13 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Linked from './components/Linked';
 import Stack from './components/Stack';
+import Hashing from './components/Hashing';
+import BinarySearchtree from './components/BinarySearchtree';
 import Queue from './components/Queue';
 import Programming from './components/Programming';
 import C from './components/C';
+import Python from './components/Python';
+import PythonFundamentals from './components/PythonFundamentals';
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -58,8 +62,12 @@ function App() {
       <Route exact path='/dsa/linked' element={<Linked/>}/>
       <Route exact path='/dsa/stack' element={<Stack/>}/>
       <Route exact path='/dsa/queue' element={<Queue/>}/>
+      <Route exact path='/dsa/binarysearchtree' element={<BinarySearchtree/>}/>
+      <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
       <Route exact path='/programming' element={<Programming/>}/>
       <Route exact path='/programming/c' element={<C/>}/>
+      <Route exact path='/programming/python' element={<Python/>}/>
+      <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
           
        </Routes>  
        <Footer/>
