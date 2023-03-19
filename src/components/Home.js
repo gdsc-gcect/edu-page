@@ -45,7 +45,7 @@ export default function Home() {
       <div className="card"  >
       <img src={c} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">C Programming Language</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="/" className="btn btn-primary">Explore</a>
       </div>
@@ -53,7 +53,7 @@ export default function Home() {
     <div className="card"  >
       <img src={java} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">JAVA</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="/" className="btn btn-primary">Explore</a>
       </div>
@@ -61,7 +61,7 @@ export default function Home() {
     <div className="card"  >
       <img src={cpp} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">C++</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="/" className="btn btn-primary">Explore</a>
       </div>
@@ -69,9 +69,9 @@ export default function Home() {
     <div className="card"  >
       <img src={python} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">Python</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="/" className="btn btn-primary">Explore</a>
+        <Link to="/programming/python" className="btn btn-primary">Explore</Link>
       </div>
     </div>
     </div>
