@@ -9,6 +9,7 @@ import Algo from './Algorithms.jpg';
 import el from './el.webp';
 import big from './bigstock.webp';
 import be from './BE.png';
+import pro from './Program.jpg'
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
@@ -78,17 +79,17 @@ export default function Home() {
       <div className="card"  >
       <img src={Algo} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">Data Structure and Algorithms</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <Link to="/dsa" className="btn btn-primary">Explore</Link>
       </div>
     </div>
     <div className="card"  >
-      <img src={code} className="card-img-top" alt="..."/>
+      <img src={pro} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">Programming</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="/" className="btn btn-primary">Explore</a>
+        <a href="/programming" className="btn btn-primary">Explore</a>
       </div>
     </div>
     <div className="card"  >

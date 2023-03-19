@@ -41,10 +41,13 @@ export default function Navbar() {
             Programming
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/" onClick={st}>Action</Link></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>Another action</Link></li>
+            <li><Link className="dropdown-item" to="/programming/c" onClick={st}>C</Link></li>
+            <li><Link className="dropdown-item" to="/" onClick={st}>C++</Link></li>
+            <li><Link className="dropdown-item" to="/programming/python" onClick={st}>Python</Link></li>
+            <li><Link className="dropdown-item" to="/" onClick={st}>Java</Link></li>
+            <li><Link className="dropdown-item" to="/" onClick={st}>JavaScript</Link></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>Something else here</Link></li>
+            <li><Link className="dropdown-item" to="/programming" onClick={st} style={{color:"#280e8f"}}>View</Link></li>
           </ul>
         </li>
         <li className="nav-item dropdown">
