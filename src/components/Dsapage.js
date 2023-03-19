@@ -26,14 +26,14 @@ export default function Dsapage() {
        <a className='items-dsa' href='/'> BINARY TREE</a>
       </div>
       
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> BINARY SEARCH TREE</a>
+      <div className='dsa-item' id='' href='/dsa/binarysearchtree'>
+       <Link className='items-dsa' to='/dsa/binarysearchtree'> BINARY SEARCH TREE</Link>
       </div>
       <div className='dsa-item' id='' href='/'>
        <a className='items-dsa' href='/'> HEAP</a>
       </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> HASHING</a>
+      <div className='dsa-item' id='' href='/dsa/hashing'>
+       <Link className='items-dsa' to='/dsa/hashing'> HASHING</Link>
       </div>
       <div className='dsa-item' id='' href='/'>
        <a className='items-dsa' href='/'> GRAPH</a>
