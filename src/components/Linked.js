@@ -51,12 +51,12 @@ export default function Linked() {
     </div>
   </div>
   <div className="accordion-item">
-    <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+    <h2 className="accordion-header" id="panelsStayOpen-headingFour">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
         <strong>Types of Linked Lists</strong>
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+    <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
       <div className="accordion-body">
       <strong>1. Single linked list <br /></strong>
       <strong>2. Double linked list <br /></strong>
@@ -65,6 +65,7 @@ export default function Linked() {
     </div>
   </div>
 </div>
+
 
         </div>
         <div className='side'>

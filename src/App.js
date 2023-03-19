@@ -14,6 +14,9 @@ import Stack from './components/Stack';
 import Queue from './components/Queue';
 import Binary from './components/Binary';
 import Heap from './components/Heap';
+import Binarytree from './components/Binarytree';
+import Hashing from './components/Hashing';
+
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -60,8 +63,8 @@ function App() {
       <Route exact path='/dsa/queue' element={<Queue/>}/>
       <Route exact path='/dsa/binary' element={<Binary/>}/>
       <Route exact path='/dsa/heap' element={<Heap/>}/>
-      
-          
+      <Route exact path='/dsa/binarysearchtree' element={<Binarytree/>}/>
+      <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
        </Routes>  
        <Footer/>
        
