@@ -12,8 +12,9 @@ import Footer from './components/Footer';
 import Linked from './components/Linked';
 import Stack from './components/Stack';
 import Queue from './components/Queue';
-
+import Binary from './components/Binary';
 import Hashing from './components/Hashing';
+import Heap from './components/Heap';
 import Binarysearchtree from './components/Binarysearchtree';
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
       <Route exact path='/dsa/linked' element={<Linked/>}/>
       <Route exact path='/dsa/stack' element={<Stack/>}/>
       <Route exact path='/dsa/queue' element={<Queue/>}/>
+      <Route exact path='/dsa/binary' element={<Binary/>}/>
+      <Route exact path='/dsa/heap' element={<Heap/>}/>
       <Route exact path='/dsa/Binarysearchtree' element={<Binarysearchtree/>}/>
       <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
        </Routes>  
