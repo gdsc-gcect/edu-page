@@ -115,68 +115,56 @@ export default function Queue() {
           <tbody>
             <tr>
               <th scope="row" className='num'>1</th>
-              <td className='prob-name'>Merge Two Sorted Lists</td>
-              <td className='prob-link'><a className="problem-link" href="https://leetcode.com/problems/merge-two-sorted-lists/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Implement Queue using array</td>
+              <td className='prob-link'><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>2</th>
-              <td className='prob-name'>Remove Duplicates from Sorted List</td>
-              <td className='prob-link'><a className="problem-link" href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Queue Reversal</td>
+              <td className='prob-link'><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/queue-reversal/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>3</th>
-              <td className='prob-name'>Linked List Cycle</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/linked-list-cycle/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Implement Queue using Linked List</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>4</th>
-              <td className='prob-name'>Intersection of Two Linked Lists</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/intersection-of-two-linked-lists/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Queue Push & Pop</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/queue-designer/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>5</th>
-              <td className='prob-name'>Add Two Numbers</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/add-two-numbers/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Queue using two Stacks</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>6</th>
-              <td className='prob-name'>Swap Nodes in Pairs</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/swap-nodes-in-pairs/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Stack using two queues</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>7</th>
-              <td className='prob-name'>Rotate List</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/rotate-list/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Reverse First K elements of Queue</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>8</th>
-              <td className='prob-name'>Remove Nth Node From End of List</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Queue Operations</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/queue-operations/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
             <tr>
               <th scope="row" className='num'>9</th>
-              <td className='prob-name'>Merge k Sorted Lists</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/merge-k-sorted-lists/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
-            </tr>
-
-            <tr>
-              <th scope="row" className='num'>10</th>
-              <td className='prob-name'>Reverse Nodes in k-Group</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/reverse-nodes-in-k-group/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
-            </tr>
-
-            <tr>
-              <th scope="row" className='num'>11</th>
-              <td className='prob-name'>Design Skiplist</td>
-              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/design-skiplist/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
+              <td className='prob-name'>Deque Implementations</td>
+              <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://practice.geeksforgeeks.org/problems/deque-implementations/1?page=1&category[]=Queue&sortBy=difficulty" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
             </tr>
 
           </tbody>
