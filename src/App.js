@@ -12,8 +12,9 @@ import Footer from './components/Footer';
 import Linked from './components/Linked';
 import Stack from './components/Stack';
 import Queue from './components/Queue';
-import Binarytree from './components/Binarytree';
+
 import Hashing from './components/Hashing';
+import Binarysearchtree from './components/Binarysearchtree';
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -59,7 +60,7 @@ function App() {
       <Route exact path='/dsa/linked' element={<Linked/>}/>
       <Route exact path='/dsa/stack' element={<Stack/>}/>
       <Route exact path='/dsa/queue' element={<Queue/>}/>
-      <Route exact path='/dsa/binarysearchtree' element={<Binarytree/>}/>
+      <Route exact path='/dsa/Binarysearchtree' element={<Binarysearchtree/>}/>
       <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
        </Routes>  
        <Footer/>

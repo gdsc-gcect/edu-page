@@ -33,7 +33,7 @@ export default function Hashing() {
                 <div className="accordion-body">
 
 
-                  In Closed hashing, three techniques are used to resolve the collision: Linear probing. Quadratic probing. Double Hashing technique.
+                  In Closed hashing, three techniques are used to resolve the collision:<br></br><strong> Linear probing.<br></br> Quadratic probing. <br></br>Double Hashing technique.</strong>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function Hashing() {
                 </h2>
                 <div id="panelsStayOpen-collapseEight" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
                   <div className="accordion-body">
-                    P = 1 + P % MOD Table_size
+                    P = (1 + P) % MOD Table_size
                   </div>
                 </div>
                 </div>
@@ -225,7 +225,7 @@ export default function Hashing() {
                   <td className='prob-link' target={'_blank'}><a className="problem-link" href="https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/" role="button" target={'_blank'} rel="noopener noreferrer">Solve</a></td>
                 </tr>
 
-
+                
               </tbody>
             </table>
           </div>
