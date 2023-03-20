@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <>
     <div className='navbar-fix'>
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light" style={{width:"100%"}}>
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style={{width:"100%"}}>
   <div className="container-fluid">
     <Link className="navbar-brand" to="/" onClick={st}>EDU-PAGE</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={navexpand}>
