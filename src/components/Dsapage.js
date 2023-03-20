@@ -10,37 +10,37 @@ export default function Dsapage() {
       <div><img src={dsal} className="side-img" alt="..."/></div>
     </div>
     <div className='dsa-element'>
-      <div className='dsa-item' id='' href='/dsa/array'>
-       <Link className='items-dsa' to='/dsa/array'> ARRAY</Link>
-      </div>
-      <div className='dsa-item' id='' href='/dsa/linked'>
-       <Link className='items-dsa' to='/dsa/linked'> LINKED LIST</Link>
-      </div>
-      <div className='dsa-item' id='' href='/dsa/stack'>
-       <Link className='items-dsa' to='/dsa/stack'> STACK</Link>
-      </div>
-      <div className='dsa-item' id='' href='/dsa/queue'>
-       <Link className='items-dsa' to='/dsa/queue'> QUEUE</Link>
-      </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/dsa/binary'> BINARY TREE</a>
-      </div>
+      <Link className='dsa-item'  to='/dsa/array'>
+       <div className='items-dsa' to='/dsa/array'> ARRAY</div>
+      </Link>
+      <Link className='dsa-item'  to='/dsa/linked'>
+       <div className='items-dsa' to='/dsa/linked'> LINKED LIST</div>
+      </Link>
+      <Link className='dsa-item'  to='/dsa/stack'>
+       <div className='items-dsa' to='/dsa/stack'> STACK</div>
+      </Link>
+      <Link className='dsa-item'  to='/dsa/queue'>
+       <div className='items-dsa' to='/dsa/queue'> QUEUE</div>
+      </Link>
+      <Link className='dsa-item'  to='/'>
+       <div className='items-dsa' to='/dsa/binary'> BINARY TREE</div>
+      </Link>
       
-      <div className='dsa-item' id='' href='/dsa/binarysearchtree'>
-       <Link className='items-dsa' to='/dsa/binarysearchtree'> BINARY SEARCH TREE</Link>
-      </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/dsa/heap'> HEAP</a>
-      </div>
-      <div className='dsa-item' id='' href='/dsa/hashing'>
-       <Link className='items-dsa' to='/dsa/hashing'> HASHING</Link>
-      </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> GRAPH</a>
-      </div>
-      <div className='dsa-item' id='' href='/'>
-       <a className='items-dsa' href='/'> DYNAMIC PROGRAMMING</a>
-      </div>
+      <Link className='dsa-item'  to='/dsa/binarysearchtree'>
+       <div className='items-dsa' to='/dsa/binarysearchtree'> BINARY SEARCH TREE</div>
+      </Link>
+      <Link className='dsa-item'  to='/dsa/heap'>
+       <div className='items-dsa' to='/dsa/heap'> HEAP</div>
+      </Link>
+      <Link className='dsa-item'  to='/dsa/hashing'>
+       <div className='items-dsa' to='/dsa/hashing'> HASHING</div>
+      </Link>
+      <Link className='dsa-item'  to='/'>
+       <div className='items-dsa' to='/'> GRAPH</div>
+      </Link>
+      <Link className='dsa-item'  to='/'>
+       <div className='items-dsa' to='/'> DYNAMIC PROGRAMMING</div>
+      </Link>
       </div>
     </div>
    
