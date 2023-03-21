@@ -90,38 +90,88 @@ div.sw {
 
 
 
-div.card{
-  width: 25%;
+.card{
+  width: 50%;
   margin: 15px 15px 12px 12px;
-  border-radius: 3%;
-  padding: 6px;
+  text-decoration: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  color:black;
+  padding: 5px;
 }
-.all-element{
+.Two-card{
+  width: 100%;
+    display: flex;
+   margin: 6px;
+    object-fit: cover;
+  
+   
+}
+div.all-element{
 
-  background-image: linear-gradient(rgba(136, 140, 217, 0.683), rgb(245, 245, 242));
-  margin: 0px ;
-  margin-top: 50px;
-  padding-top:13px ;
+  /* background-image: linear-gradient(rgba(136, 140, 217, 0.683), rgb(245, 245, 242)); */
+  margin-top: 80px;
+  
+    padding: 7px;
+}
+
+.card-body .btn{
+  align-self:last baseline
+}
+.card-title {
+ 
+  height: 53px;
 }
 div.element{
   display:flex;
   flex-direction: row;
   align-content: center;
   margin: 40px 25px;
+  object-fit: cover;
+  height: max-content;
+  justify-content: center;
   
   
 }
+.element-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.carousel-item img{
+  
+  height: 100vh;
+  
+  
+}
+
+
 .card-img-top{
-  border-radius: 6%;
-  height: 30vh;
+  border-radius: 0%;
+    height: 100%;
+    object-fit: cover;
+   
+    
+}
+.card:hover .card-img-top{
+  opacity: .9;
+  
+  
+}
+.t{
+  background-color: #0d0c03a9;
+  color: #ebebe9;
+  border-radius: 10px;
+  padding: 4px;
+  margin: 4px;
 }
 
 .card:hover{
   box-shadow: 10px 10px 25px rgb(43, 64, 70);
   cursor: pointer;
-  width: 25.5%;
 
 }
 .navbar-brand{
@@ -160,24 +210,24 @@ div.element{
 .dsa-item{
   width: 20%;
   height: 30vh;
-    
+    color:white;
+    text-decoration: none;
   margin: 69px 38px 16px 17px;
   font-size: 1.5em;
   padding: 25px;
   display: flex;
   align-items: center;
 }
-a.items-dsa{
-  color: #fff;
-  text-decoration: none;
-}
+
 .details{
   padding-top: 10px;
 }
 
 
  .dsa-item:hover {
+  color:#0d0c03;
   box-shadow: 10px 10px 25px rgba(0, 1, 1, 0.306);
+  cursor: pointer;
 }
 .dsa-item:nth-child(1) {
   background-image: linear-gradient(135deg,#f45f03,#eeca39);
@@ -315,8 +365,79 @@ a.items-dsa{
     background: #00101876;
   color: white;
 }
- 
+.carousel-item{
+  opacity: 0.5;
+    
+
+}
+.carousel-inner{
+  background-color: #0d0c03;
+  height: 90vh;
+}
+.front{
+  display:flex;
+}
+.heading {
+  width: 32%;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  
+  justify-content: center;
+  
+}
+.head-btn{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: cursive;
+  color: white;
+  background-color: #0d0c03;
+}
+.head-btn:hover{
+  
+  color: white;
+  background-color: #8a080a;
+  cursor: pointer;
+}
+.heading h2{
+  width: 9ch;
+    border-right: 3px solid rgb(247, 3, 3);
+    margin: 0px 0px 7px 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+
+}
+@keyframes typing {
+  from {
+      width: 0;
+  }
+}
+@keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+#carouselExampleIndicators{
+  width:73%;
+clip-path: circle(90% at 88% 44%);
+}
+
+@media screen and (max-width: 1200px) {
+  #carouselExampleIndicators {
+    display: none;
+  }
+  .heading {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 300px;
+  }
+}
  @media screen and (max-width: 1145px) {
+ 
   .jumbotron{
     
     margin:5px ;
@@ -350,20 +471,11 @@ a.items-dsa{
     color: #ede27e;
     
    }
-  div.element {
-    display: block;
-    padding: 0;
-  }
-  div.card{
-    width:95%;
-    display: block;
-  }
+   div.element{
+    flex-direction: column;
+   }
  
-  .card:hover{
-    
-    width: 95%;
   
-  }
   .array-page {
     display: flex;
     align-items: center;
@@ -427,6 +539,25 @@ a.items-dsa{
   .program-page{
     flex-direction: column;
   }
+  .carousel-item img {
+    height: 57vh;
+}
+  .Two-card{
+    align-items: center;
+    flex-direction: column;
+  }
+  .card{
+    width:85%;
+    
+  }
+  .card:hover{
+    width:85%;
+    
+  }
+  .card-title {
+    height: fit-content;
+    margin: 0px;
+}
 
 }
 ul{
