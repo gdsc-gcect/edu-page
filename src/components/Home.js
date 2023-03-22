@@ -135,7 +135,7 @@ export default function Home() {
                 <button to="/dsa" className="btn btn-primary">Explore</button>
               </div>
             </Link>
-            <Link to="/" className="card" data-aos="fade-up"
+            <Link to="/programming" className="card" data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-offset="150"
               data-aos-easing="ease-in-sine">
@@ -143,7 +143,7 @@ export default function Home() {
               <div className="card-body">
                 <h5 className="card-title">Programming</h5>
                 <p className="card-text"></p>
-                <button href="/programming" className="btn btn-primary">Explore</button>
+                <button to="/programming" className="btn btn-primary">Explore</button>
               </div>
             </Link>
           </div>
