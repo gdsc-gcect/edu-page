@@ -12,11 +12,11 @@ export default function Programming() {
         </div>
         <div className="leftmenu">
             <ul>
-                <li><a className="lan-link" href="/programming/c">C</a></li>
-                <li><a className="lan-link" href="/">C++</a></li>
-                <li><a className="lan-link" href="/programming/python">Python</a></li>
-                <li><a className="lan-link" href="/">Java</a></li>
-                <li><a className="lan-link" href="/">JavaScript</a></li>
+                <li><a className="lan-link" href="/programming/c">C</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/">C++</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/programming/python">Python</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/">Java</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/">JavaScript</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
             </ul>
         </div>
     </div>
