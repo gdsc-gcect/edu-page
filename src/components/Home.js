@@ -31,8 +31,9 @@ export default function Home() {
       <div className='front' style={{ margin: "57px 0px 0px 0px" }}>
         <div className='heading'  >
           <div style={{ display: "flex" }}><h3 style={{ marginRight: "5px" }}>Welcome to</h3><h2 style={{ color: "red" }}  >EDU PAGE</h2></div>
-          <p style={{ alignItems: "center" }}>C,C++,JAVA,PYTHON,<br />DATA STRUCTURE AND ALGORITHM</p>
-          <div>
+          <p style={{ display:"flex",justifyContent:"center",padding:"1px"}}>C,C++,JAVA,PYTHON,</p>
+          <p style={{ display:"flex",justifyContent:"center",padding:"1px"}}>DATA STRUCTURE AND ALGORITHM</p>
+          <div style={{margin:"15px"}}>
             <button onClick={handleClick} className="head-btn">Get Started</button>
           </div></div>
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{ margin: " 0px", padding: "0px" }}>
