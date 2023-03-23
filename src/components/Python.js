@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import py from "./py.png"
 
 export default function Python() {
   return (
     <div>
       <div className="program-page" style={{ margin: "70px 10px 10px 10px" }}>
         <div className="side-lan">
-          <div id="menu">
+          <div id="menu" style={{width:"100%"}}>
             <div className="leftmenu2">
               <h6 className="spanh2">
-                <span className="spanh2"> Python</span>
+              <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img>
+                <h2 className="python">PYTHON</h2>
               </h6>
             </div>
             <div className="leftmenu">
@@ -22,71 +24,85 @@ export default function Python() {
                     Python Fundamentals
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Data Types and Operators
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Conditional and looping Statements
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Strings
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Errors and Exceptions in Python
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Errors and Exceptions in Python
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Lists
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Tuples
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Dictionary
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Modules
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Functions
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     OOP with Python
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     File Handling
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
                     Recursion
                   </Link>
                 </li>
+                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
               </ul>
             </div>
           </div>
