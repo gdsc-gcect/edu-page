@@ -6,7 +6,13 @@ export default function Python() {
   const [count, setCount] = useState("none");
   const navexpand=() =>{ 
     
-    count==="none"?setCount("block"):setCount("none");
+    count==="none"?setCount("block"):setCount("block");
+    
+    
+  }
+  const corssactive=() =>{ 
+    
+    count==="block"?setCount("none"):setCount("none");
     
     
   }
@@ -22,13 +28,16 @@ export default function Python() {
           <div  onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true"/>
           <i className="fa fa-chevron-right" aria-hidden="true"/>
           </div></div>
-        <div className="side-lan" style={st} >
+        <div className="side-lan" style={st}  >
+        <div className='cross'  onClick={corssactive}>	<i className="fa fa-times" aria-hidden="true"/>
+            </div>
           <div id="menu" style={{width:"100%"}}>
             <div className="leftmenu2">
               <div className="spanh2">
               <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img>
                 <h2 className="python">PYTHON</h2>
               </div>
+              
             </div>
             <div className="leftmenu">
               <ul>

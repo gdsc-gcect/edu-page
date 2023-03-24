@@ -9,6 +9,12 @@ export default function PythonFundamentals() {
     
     
   }
+  const corssactive=() =>{ 
+    
+    count==="block"?setCount("none"):setCount("none");
+    
+    
+  }
   const st = {
    display:count
    
@@ -22,6 +28,8 @@ export default function PythonFundamentals() {
           <i className="fa fa-chevron-right" aria-hidden="true"/>
           </div></div>
         <div className="side-lan" style={st}>
+        <div className='cross'  onClick={corssactive}>	<i className="fa fa-times" aria-hidden="true"/>
+            </div>
           <div id="menu" style={{width:"100%"}}>
             <div className="leftmenu2">
               <div className="spanh2">
