@@ -1,18 +1,34 @@
-import React from "react";
+import React,{useState} from 'react';
 import { Link } from "react-router-dom";
 import py from "./py.png"
 
 export default function Python() {
+  const [count, setCount] = useState("none");
+  const navexpand=() =>{ 
+    
+    count==="none"?setCount("block"):setCount("none");
+    
+    
+  }
+  const st = {
+   display:count,
+   
+    
+}
   return (
     <div>
       <div className="program-page" style={{ margin: "70px 10px 10px 10px" }}>
-        <div className="side-lan">
+        <div className="side-lan-small" >
+          <div  onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true"/>
+          <i className="fa fa-chevron-right" aria-hidden="true"/>
+          </div></div>
+        <div className="side-lan" style={st} >
           <div id="menu" style={{width:"100%"}}>
             <div className="leftmenu2">
-              <h6 className="spanh2">
+              <div className="spanh2">
               <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img>
                 <h2 className="python">PYTHON</h2>
-              </h6>
+              </div>
             </div>
             <div className="leftmenu">
               <ul>
