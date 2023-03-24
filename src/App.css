@@ -348,7 +348,7 @@ div.element{
     font-size: 40px;
     font-weight: 600;
  }
- .fa {
+ .about-links .fa {
   padding: 8px;
   font-size: 18px;
   width: 33px;
@@ -360,7 +360,7 @@ div.element{
   color: white;
 }
 
-.fa:hover {
+.about-links .fa:hover {
     opacity: 0.7;
     background: #00101876;
   color: white;
@@ -548,7 +548,9 @@ clip-path: circle(90% at 88% 44%);
   float: left;
   background-color: #080202ec;
   padding: 10px 15px;
-  display:flex;
+  display: flex;
+    flex-basis: auto;
+  
   justify-content: center;
 }
 .program-que-ans {
@@ -614,3 +616,38 @@ ul li{
 .MsoNormal{
   list-style: disc;
 }
+.fa-arrow-circle-o-up{
+  font-size: 30px;
+  color: #0d8b2c;
+
+}
+.fa-arrow-circle-o-up:hover{
+  font-size: 35px;
+  color: #000000;
+
+}
+.side-lan-small{
+  font-size: 20px;
+  width: 100%;
+  font-weight: 800;
+  display: none;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+ @media screen and (max-width: 700px) {
+  .side-lan-small{
+    display: block;
+  }
+  
+}
+@media screen and (min-width: 700px) {
+  .side-lan{
+    display: flex!important;
+  }
+  .side-lan-small{
+    display: none;
+  } 
+}
+  
