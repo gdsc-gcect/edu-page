@@ -1,15 +1,39 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 
 export default function C() {
+  const [count, setCount] = useState("none");
+  const navexpand = () => {
+
+    count === "none" ? setCount("block") : setCount("block");
+
+
+  }
+  const corssactive = () => {
+
+    count === "block" ? setCount("none") : setCount("none");
+
+
+  }
+  const st = {
+    display: count,
+
+
+  }
   return (
     <div>
-      <div className="program-page" style={{ margin: "70px 10px 10px 10px" }}>
-        <div className="side-lan">
-          <div id="menu">
+    <div className="program-page" style={{ margin: "70px 10px 10px 10px" }}>
+      <div className="side-lan-small" >
+        <div onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true" />
+          <i className="fa fa-chevron-right" aria-hidden="true" />
+        </div></div>
+      <div className="side-lan" style={st}  >
+        <div className='cross' onClick={corssactive}>	<i className="fa fa-times" aria-hidden="true" />
+        </div>
+        <div id="menu" style={{ width: "100%" }}>
             <div className="leftmenu2">
               <h6 className="spanh2">
-                <span className="spanh2"> C</span>
+              <h2 className="python">C</h2>
               </h6>
             </div>
             <div className="leftmenu">
@@ -21,72 +45,72 @@ export default function C() {
                   >
                     C Fundamentals
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Data Types 
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     C loop
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                    C Functions
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                   C Scope Rules
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Errors and Exceptions in Python
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Lists
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Tuples
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Dictionary
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Modules
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Functions
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     OOP with Python
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     File Handling
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Recursion
                   </Link>
-                </li>
+                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
               </ul>
             </div>
           </div>
