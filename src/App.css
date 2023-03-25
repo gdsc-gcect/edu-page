@@ -640,6 +640,9 @@ ul li{
   .side-lan-small{
     display: block;
   }
+  .cross{
+    display: block;
+  }
   
 }
 @media screen and (min-width: 700px) {
@@ -649,5 +652,13 @@ ul li{
   .side-lan-small{
     display: none;
   } 
+  .cross{
+    display: none!important;
+  }
 }
-  
+  .fa-times{
+    color: rgb(255, 242, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }

@@ -1,31 +1,39 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import py from "./py.png"
 export default function PythonFundamentals() {
   const [count, setCount] = useState("none");
-  const navexpand=() =>{ 
-    
-    count==="none"?setCount("block"):setCount("none");
-    
-    
+  const navexpand = () => {
+
+    count === "none" ? setCount("block") : setCount("none");
+
+
+  }
+  const corssactive = () => {
+
+    count === "block" ? setCount("none") : setCount("none");
+
+
   }
   const st = {
-   display:count
-   
-    
-}
+    display: count
+
+
+  }
   return (
     <div>
       <div className="program-page" style={{ margin: "70px 10px 10px 10px" }}>
-      <div className="side-lan-small" >
-          <div  onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true"/>
-          <i className="fa fa-chevron-right" aria-hidden="true"/>
+        <div className="side-lan-small" >
+          <div onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true" />
+            <i className="fa fa-chevron-right" aria-hidden="true" />
           </div></div>
         <div className="side-lan" style={st}>
-          <div id="menu" style={{width:"100%"}}>
+          <div className='cross' onClick={corssactive}>	<i className="fa fa-times" aria-hidden="true" />
+          </div>
+          <div id="menu" style={{ width: "100%" }}>
             <div className="leftmenu2">
               <div className="spanh2">
-              <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img>
+                <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img>
                 <h2 className="python">PYTHON</h2>
               </div>
             </div>
@@ -39,85 +47,85 @@ export default function PythonFundamentals() {
                     Python Fundamentals
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
-                  <Link className="lan-link" to="/">
+                  <Link className="lan-link" to="/programming/python/DataTypesAndOperators">
                     Data Types and Operators
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Conditional and looping Statements
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Strings
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Errors and Exceptions in Python
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Errors and Exceptions in Python
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Lists
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Tuples
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Dictionary
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Modules
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Functions
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     OOP with Python
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     File Handling
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/">
                     Recursion
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
               </ul>
             </div>
           </div>
@@ -147,7 +155,7 @@ export default function PythonFundamentals() {
             <p>
               <strong> Special Symbols:</strong>
               Python supports all kind of special symbols like, ” ‘ l ; : ! ~ @
-              # $ % ^ ` & * ( ) _ + – = {} [ ] \ .
+              # $ % ^ ` & * ( ) _ + – = { } [ ] \ .
             </p>
             <p>
               <strong> White Spaces:</strong>
@@ -281,7 +289,7 @@ export default function PythonFundamentals() {
             <p>
               &emsp;
               <strong> 4. Set:</strong> It is the unordered collection of
-              elements in curly braces ‘{}’.
+              elements in curly braces ‘{ }’.
             </p>
             <p>
               <strong>4. Operators:</strong>
@@ -295,7 +303,7 @@ export default function PythonFundamentals() {
               <strong>5. Punctuators:</strong>
               These are the symbols that used in Python to organize the
               structures, statements, and expressions. Some of the Punctuators
-              are: [ ] {}( ) @ -= += *= //= **== = , etc.
+              are: [ ] { }( ) @ -= += *= //= **== = , etc.
             </p>
           </div>
           <div className="program-full-q">
@@ -344,9 +352,9 @@ export default function PythonFundamentals() {
               in the program. To do this Python provides an input() function.
             </p>
             <p><strong>Syntax:
-</strong>input('prompt')</p>
-<p><strong>Example:
-</strong>name = input("Enter your name: ")</p>
+            </strong>input('prompt')</p>
+            <p><strong>Example:
+            </strong>name = input("Enter your name: ")</p>
           </div>
         </div>
       </div>
