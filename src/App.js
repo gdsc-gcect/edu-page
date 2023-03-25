@@ -16,8 +16,10 @@ import Hashing from './components/Hashing';
 import Heap from './components/Heap';
 import Binarysearchtree from './components/Binarysearchtree';
 import Queue from './components/Queue';
+import Dynamic from './components/Dynamic';
 import Programming from './components/Programming';
 import C from './components/C';
+import CFundamentals from './components/CFundamentals';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
 function App() {
@@ -68,11 +70,12 @@ function App() {
       <Route exact path='/dsa/heap' element={<Heap/>}/>
       <Route exact path='/dsa/Binarysearchtree' element={<Binarysearchtree/>}/>
       <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
+      <Route exact path='/dsa/dynamic' element={<Dynamic/>}/>
       <Route exact path='/programming' element={<Programming/>}/>
-      <Route exact path='/programming/c' element={<C/>}/>
+      <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
-          
+      <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
        </Routes>  
        <Footer/>
        
