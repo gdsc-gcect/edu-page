@@ -3,26 +3,34 @@ import { Link } from "react-router-dom";
 //import py from "./py.png"
 export default function PYTHONFundamentals() {
   const [count, setCount] = useState("none");
-  const navexpand=() =>{ 
-    
-    count==="none"?setCount("block"):setCount("none");
-    
-    
+  const navexpand = () => {
+
+    count === "none" ? setCount("block") : setCount("block");
+
+
+  }
+  const corssactive = () => {
+
+    count === "block" ? setCount("none") : setCount("none");
+
+
   }
   const st = {
-   display:count
-   
-    
-}
+    display: count,
+
+
+  }
   return (
     <div>
       <div className="program-page" style={{ margin: "70px 10px 10px 10px" }}>
-      <div className="side-lan-small" >
-          <div  onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true"/>
-          <i className="fa fa-chevron-right" aria-hidden="true"/>
+        <div className="side-lan-small" >
+          <div onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true" />
+            <i className="fa fa-chevron-right" aria-hidden="true" />
           </div></div>
-        <div className="side-lan" style={st}>
-          <div id="menu" style={{width:"100%"}}>
+        <div className="side-lan" style={st}  >
+          <div className='cross' onClick={corssactive}>	<i className="fa fa-times" aria-hidden="true" />
+          </div>
+          <div id="menu" style={{ width: "100%" }}>
             <div className="leftmenu2">
               <div className="spanh2">
               
