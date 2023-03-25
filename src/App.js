@@ -20,6 +20,7 @@ import Programming from './components/Programming';
 import C from './components/C';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
+import DataTypesAndOperators from './components/DataTypesAndOperators';
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -72,6 +73,7 @@ function App() {
       <Route exact path='/programming/c' element={<C/>}/>
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
+      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
           
        </Routes>  
        <Footer/>
