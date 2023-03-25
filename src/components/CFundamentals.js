@@ -41,7 +41,7 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
+                  <Link className="lan-link" to="/programming/C/Coperator">
                     Operators
                   </Link>
                 </li>
@@ -60,13 +60,13 @@ export default function PYTHONFundamentals() {
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
-                    Errors and Exceptions in Python
+                    Errors and Exceptions 
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
-                    Errors and Exceptions in Python
+                    Errors 
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
@@ -102,7 +102,7 @@ export default function PYTHONFundamentals() {
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
-                    OOP with Python
+                    OOP 
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>

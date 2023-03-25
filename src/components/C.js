@@ -23,8 +23,8 @@ export default function C() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Data Types 
+                  <Link className="lan-link" to="/programming/C/Coperator">
+                    Operator 
                   </Link>
                 </li>
                 <li>
