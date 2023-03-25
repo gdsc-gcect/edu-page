@@ -1,22 +1,45 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 
 export default function Programming() {
+    const [count, setCount] = useState("none");
+    const navexpand=() =>{ 
+      
+      count==="none"?setCount("block"):setCount("none");
+      
+      
+    }
+    const corssactive=() =>{ 
+      
+      count==="block"?setCount("none"):setCount("none");
+      
+      
+    }
+    const st = {
+     display:count
+     
+    }  
   return (
     <>
     <div className='program-page' style={{margin:"70px 10px 10px 10px"}}>
-    <div className='side-lan'>
+    <div className="side-lan-small" >
+          <div  onClick={navexpand}>Related Articles 	<i className="fa fa-chevron-right" aria-hidden="true"/>
+          <i className="fa fa-chevron-right" aria-hidden="true"/>
+          </div></div>
+        <div className="side-lan" style={st} >
+        <div className='cross'  onClick={corssactive}>	<i className="fa fa-times" aria-hidden="true"/>
+            </div>
     <div id="menu">
         <div className="leftmenu2">
-            <h6 className="spanh2"><span className="spanh2"> Programming Languages</span></h6>
+            <div className="spanh2"><span className="spanh2">  <h2 className="python">PROGRAMMING LANGUAGES</h2></span></div>
         </div>
         <div className="leftmenu">
             <ul>
-                <li><a className="lan-link" href="/programming/c">C</a></li>
-                <li><a className="lan-link" href="/">C++</a></li>
-                <li><a className="lan-link" href="/programming/python">Python</a></li>
-                <li><a className="lan-link" href="/">Java</a></li>
-                <li><a className="lan-link" href="/">JavaScript</a></li>
+                <li><a className="lan-link" href="/programming/c">C</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/">C++</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/programming/python">Python</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/">Java</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
+                <li><a className="lan-link" href="/">JavaScript</a></li><hr className="featurette-divider" style={{color:"#a6a6af"}}/>
             </ul>
         </div>
     </div>

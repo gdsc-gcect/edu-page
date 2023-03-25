@@ -348,7 +348,7 @@ div.element{
     font-size: 40px;
     font-weight: 600;
  }
- .fa {
+ .about-links .fa {
   padding: 8px;
   font-size: 18px;
   width: 33px;
@@ -360,7 +360,7 @@ div.element{
   color: white;
 }
 
-.fa:hover {
+.about-links .fa:hover {
     opacity: 0.7;
     background: #00101876;
   color: white;
@@ -434,6 +434,11 @@ clip-path: circle(90% at 88% 44%);
     background-color: rgb(0, 0, 0);
     color: white;
     height: 300px;
+  }
+  .head-btn{
+    
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
   }
 }
  @media screen and (max-width: 1145px) {
@@ -513,14 +518,39 @@ clip-path: circle(90% at 88% 44%);
   width:100%;
  
 }
+.spanh2{
+  display: flex;
+  justify-content: center;
+}
+.leftmenu2{
+ 
+  
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.python{
 
+
+  font-size: 40px;
+  margin-left: 10px;
+  font-family: emoji;
+      font-size: 25px;
+      background: -webkit-linear-gradient( #3976a6, #ffe05f);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+  
+}
 .side-lan{
-  width: 18%;
+  width: 26%;
   margin-top: 5px;
   float: left;
-  background-color: #ad99997a;
+  background-color: #080202ec;
   padding: 10px 15px;
-  display:flex;
+  display: flex;
+    flex-basis: auto;
+  
   justify-content: center;
 }
 .program-que-ans {
@@ -570,7 +600,14 @@ ul li{
 .lan-link {
   display: block;
   padding: .5rem 1rem;
-  color: #4e555f;
+  color: #c2d975;
+  text-decoration: none;
+}
+.lan-link-active {
+  display: block;
+  padding: .5rem 1rem;
+  color: #3882ea;
+ 
   text-decoration: none;
 }
 .program-page{
@@ -579,3 +616,49 @@ ul li{
 .MsoNormal{
   list-style: disc;
 }
+.fa-arrow-circle-o-up{
+  font-size: 30px;
+  color: #0d8b2c;
+
+}
+.fa-arrow-circle-o-up:hover{
+  font-size: 35px;
+  color: #000000;
+
+}
+.side-lan-small{
+  font-size: 20px;
+  width: 100%;
+  font-weight: 800;
+  display: none;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+ @media screen and (max-width: 700px) {
+  .side-lan-small{
+    display: block;
+  }
+  .cross{
+    display: block;
+  }
+  
+}
+@media screen and (min-width: 700px) {
+  .side-lan{
+    display: flex!important;
+  }
+  .side-lan-small{
+    display: none;
+  } 
+  .cross{
+    display: none!important;
+  }
+}
+  .fa-times{
+    color: rgb(255, 242, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
