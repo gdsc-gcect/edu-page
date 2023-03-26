@@ -26,6 +26,7 @@ import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
+import Variable from './components/variable'
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -86,6 +87,7 @@ function App() {
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
       <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
       <Route exact path='/programming/C/Function' element={<Function/>}/> 
+      <Route exact path='/programming/C/Variable' element={<Variable/>}/>
        </Routes>  
        <Footer/>
        

@@ -68,7 +68,7 @@ export default function PYTHONFundamentals() {
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/">
-                  Variables
+                    Errors and Exceptions in Python
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
@@ -131,7 +131,7 @@ export default function PYTHONFundamentals() {
           </div>
         </div>
         <div className="program-que-ans">
-          <h2><center><u>C Loop</u></center></h2>
+          <h2><center><u>Variable</u></center></h2>
           <div className="program-full-q">
             
            
