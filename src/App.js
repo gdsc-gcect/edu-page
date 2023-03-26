@@ -24,6 +24,7 @@ import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
+import Loop from './components/Loop'
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -82,7 +83,7 @@ function App() {
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
-          
+      <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
 
        </Routes>  
        <Footer/>

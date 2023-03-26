@@ -52,7 +52,7 @@ export default function C() {
                   </Link>
                 </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
-                  <Link className="lan-link" to="/">
+                  <Link className="lan-link" to="/programming/C/Loop">
                     C loop
                   </Link>
                 </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
