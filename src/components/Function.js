@@ -49,7 +49,7 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link-active" to="/programming/C/Coperator">
+                  <Link className="lan-link" to="/programming/C/Coperator">
                     Operators
                   </Link>
                 </li>
@@ -61,7 +61,7 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/programming/C/Function">
+                  <Link className="lan-link-active" to="/programming/C/Function">
                   C Functions
                   </Link>
                 </li>

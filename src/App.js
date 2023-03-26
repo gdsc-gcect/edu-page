@@ -26,7 +26,6 @@ import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
-import Variable from './components/variable'
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -78,16 +77,20 @@ function App() {
       <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
       <Route exact path='/dsa/dynamic' element={<Dynamic/>}/>
       <Route exact path='/programming' element={<Programming/>}/>
-      <Route exact path='/programming/C' element={<C/>}/>
+
+      
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
+      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
 
+
+       
+       <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
       <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
       <Route exact path='/programming/C/Function' element={<Function/>}/> 
-      <Route exact path='/programming/C/Variable' element={<Variable/>}/>
        </Routes>  
        <Footer/>
        

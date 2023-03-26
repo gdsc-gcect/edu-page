@@ -49,13 +49,13 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link-active" to="/programming/C/Coperator">
+                  <Link className="lan-link" to="/programming/C/Coperator">
                     Operators
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/programming/C/Loop">
+                  <Link className="lan-link-active" to="/programming/C/Loop">
                   C loop
                   </Link>
                 </li>
