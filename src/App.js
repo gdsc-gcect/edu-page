@@ -24,6 +24,7 @@ import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
+import Cpp from './components/Cpp';
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -75,14 +76,22 @@ function App() {
       <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
       <Route exact path='/dsa/dynamic' element={<Dynamic/>}/>
       <Route exact path='/programming' element={<Programming/>}/>
-      <Route exact path='/programming/C' element={<C/>}/>
+
+      
+      {/* python */}
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
+      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
 
+
+       {/* c */}
+       <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
-      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      
           
+      {/* cpp */}
+      <Route exact path='/programming/Cpp' element={<Cpp/>}/>
 
        </Routes>  
        <Footer/>
