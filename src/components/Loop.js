@@ -49,13 +49,13 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link-active" to="/programming/C/Coperator">
+                  <Link className="lan-link" to="/programming/C/Coperator">
                     Operators
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/programming/C/Loop">
+                  <Link className="lan-link-active" to="/programming/C/Loop">
                   C loop
                   </Link>
                 </li>
@@ -131,39 +131,51 @@ export default function PYTHONFundamentals() {
           </div>
         </div>
         <div className="program-que-ans">
-          <h2><center><u>Operators</u></center></h2>
+          <h2><center><u>C Loop</u></center></h2>
           <div className="program-full-q">
             
            
-            <p>An operator is a Symbol that performs an operation. An operators acts some
-variables are called operands to get the desired result.
+            <p>There may be a situation, when you need to execute a block of code several number
+of times. In general, statements are executed sequentially: The first statement in a
+function is executed first, followed by the second, and so on.
+Programming languages provide various control structures that allow for more complicated
+execution paths.
+A loop statement allows us to execute a statement or group of statements multiple times.<br></br>
+Loop:-it is a block of statement that performs set of instructions. In loops
+Repeating particular portion of the program either a specified number of time or
+until a particular no of condition is being satisfied.
+There are three types of loops in c
+<br></br>
+1.While loop<br></br>
+2.do while loop<br></br>
+3.for loop 
+<h3>while loop in C</h3>
+ 
+ <p>
+ A while loop statement in C programming language repeatedly executes a target
+statement as long as a given condition is true.
+Syntax
 
- Ex : a+b;
-Where a,b are operands and + is the operator.
-Types of Operator :<strong>
- <br></br>1. Arithmetic Operators.<br></br>
-2. Relational Operators.<br></br>
-3. Logical Operators.<br></br>
-4. Assignment Operators.<br></br>
-5. Bitwise Operators.<br></br>
-6. other Operators.
-</strong><br></br>
-<h2>Arithmetic Operators</h2>
-An arithmetic operator performs mathematical operations such as addition, subtraction and
-multiplication on numerical values (constants and variables).
+The condition may be any expression, and true is any nonzero value. The loop iterates
+while the condition is true.
+When the condition becomes false, program control passes to the line immediately
+following the loop.
+
+ </p>
+
+
+
+<h3>for loop in C</h3>
+A for loop is a repetition control structure that allows you to efficiently write a loop that
+needs to execute a specific number of times.
 </p>
-<h2> Relational Operators in C</h2>
-<p>These are used for the comparison of the values of two operands. For example, checking if one operand is equal to the other operand or not, whether an operand is greater than the other operand or not, etc.  </p>    
-<h2>Logical Operator in C</h2>
-Logical Operators are used to combining two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a Boolean value either true or false. 
 
-For example, the logical AND represented as the ‘&&’ operator in C returns true when both the conditions under consideration are satisfied. Otherwise, it returns false. Therefore, a && b returns true when both a and b are true (i.e. non-zero).
-<h2>Assignment Operators in C</h2>
-Assignment operators are used to assign value to a variable. The left side operand of the assignment operator is a variable and the right side operand of the assignment operator is a value. The value on the right side must be of the same data type as the variable on the left side otherwise the compiler will raise an error. 
-
-
-<h2>Bitwise Operators in C </h2>
-The Bitwise operators are used to perform bit-level operations on the operands. The operators are first converted to bit-level and then the calculation is performed on the operands. Mathematical operations such as addition, subtraction, multiplication, etc. can be performed at the bit level for faster processing. For example, the bitwise AND operator represented as ‘&’ in C takes two numbers as operands and does AND on every bit of two numbers. The result of AND is 1 only if both bits are 1(True).
+<h3>do...while loop in C</h3>
+Unlike for and while loops, which test the loop condition at the top of the loop,
+the do...while loop in C programming language checks its condition at the bottom of the
+loop.
+A do...while loop is similar to a while loop, except that a do...while loop is guaranteed to
+execute at least one time.
 
 
           </div>

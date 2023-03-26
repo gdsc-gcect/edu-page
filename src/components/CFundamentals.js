@@ -55,14 +55,14 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Conditional and looping Statements
+                  <Link className="lan-link" to="/programming/C/Loop">
+                  C loop
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Strings
+                  <Link className="lan-link" to="/programming/C/Function">
+                   C Functions
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>

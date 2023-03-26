@@ -24,6 +24,8 @@ import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
+import Loop from './components/Loop'
+import Function from './components/Function'
 import Cpp from './components/Cpp';
 
 function App() {
@@ -88,10 +90,12 @@ function App() {
        <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
-      
-          
-      {/* cpp */}
-      <Route exact path='/programming/Cpp' element={<Cpp/>}/>
+      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/C/loop' element={<Loop/>}/>
+      <Route exact path='/programming/c/function' element={<Function/>}/>
+
+          {/*c++  */}
+          <Route exact path='/programming/CPP' element={<Cpp/>}/>
 
        </Routes>  
        <Footer/>
