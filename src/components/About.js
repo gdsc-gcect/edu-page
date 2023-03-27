@@ -2,13 +2,15 @@ import React from 'react'
 import ab from './Education.jpg';
 import bc from './SelfLearning.jpg'
 import cd from './No.jpg'
+import cat from'./cat.png'
 import java from './java.webp';
 export default function About() {
   return (
     <>
-      <div className='about-page' style={{ width: "100%", padding: "5px" }}>
-        <div style={{ margin: "50px 0px", width: "100%", padding: "0", background: "black", overflow: "hidden" }}>
-          <img src={ab} className="d-block w-100 " height="520" alt="..." style={{ opacity: "0.7" }} />
+      <div className='about-page' style={{ width: "100%" }}>
+        <div style={{ margin: "50px 0px", width: "100%", padding: "0", background: "black", overflow: "hidden",position:"relative",textAlign:"center",color:"white" }}>
+          <img src={ab} className="d-block w-100 "  alt="..." style={{ opacity: "0.4",objectFit:"cover" ,height:"100%"}} />
+          <div className='center-text'>lyjhgfyjhgj,yhgjmnbgvjhmngbgvjhgnfvhtngbfvhgb bnv gkjnvb </div>
         </div>
         <div className='feat'>
           <hr className="featurette-divider" />
@@ -57,7 +59,7 @@ export default function About() {
             </ul></div>
           </div>
           <div className="col-lg-3">
-            <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={java} alt="..."></img>
+            <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={cat} alt="..."style={{backgroundColor:"black"}}></img>
             <h2>Heading</h2>
             <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
             <div><ul className='about-links'>
