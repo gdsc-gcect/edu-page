@@ -76,54 +76,13 @@ export default function PYTHONFundamentals() {
                   <Link className="lan-link" to="/programming/C/Error">
                     Errors and Exceptions 
                   </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    Lists
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    Tuples
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    Dictionary
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    Modules
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    Functions
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    OOP with Python
-                  </Link>
-                </li>
+                  </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
                   <Link className="lan-link" to="/programming/C/FileHandling">
-                    File Handling
+                   File Handling
                   </Link>
-                </li>
-                <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
-                <li>
-                  <Link className="lan-link" to="/">
-                    Recursion
-                  </Link>
+                
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
               </ul>
