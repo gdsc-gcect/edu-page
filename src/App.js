@@ -27,6 +27,7 @@ import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
 import Cpp from './components/Cpp';
+import CppFundamentals from './components/CppFundamentals';
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -96,6 +97,7 @@ function App() {
 
           {/*c++  */}
           <Route exact path='/programming/CPP' element={<Cpp/>}/>
+          <Route exact path='/programming/CPP/fundamentals' element={<CppFundamentals/>}/>
 
        </Routes>  
        <Footer/>
