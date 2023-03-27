@@ -28,6 +28,8 @@ import Loop from './components/Loop'
 import Function from './components/Function'
 import ConditionalAndLooping from './components/ConditionalAndLooping';
 import StringsPython from './components/StringsPython';
+import Cpp from './components/Cpp';
+import CppFundamentals from './components/CppFundamentals';
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -96,6 +98,12 @@ function App() {
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
       <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
       <Route exact path='/programming/C/Function' element={<Function/>}/> 
+     
+
+          {/*c++  */}
+          <Route exact path='/programming/CPP' element={<Cpp/>}/>
+          <Route exact path='/programming/CPP/fundamentals' element={<CppFundamentals/>}/>
+
        </Routes>  
        <Footer/>
        
