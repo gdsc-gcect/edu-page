@@ -26,6 +26,8 @@ import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
+import ConditionalAndLooping from './components/ConditionalAndLooping';
+import StringsPython from './components/StringsPython';
 import Cpp from './components/Cpp';
 import CppFundamentals from './components/CppFundamentals';
 
@@ -81,19 +83,22 @@ function App() {
       <Route exact path='/programming' element={<Programming/>}/>
 
       
-      {/* python */}
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/python/ConditionalAndLooping' element={<ConditionalAndLooping/>}/>
+      <Route exact path='/programming/python/StringsPython' element={<StringsPython/>}/>
+      
 
 
-       {/* c */}
+       
        <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
-      <Route exact path='/programming/C/loop' element={<Loop/>}/>
-      <Route exact path='/programming/c/function' element={<Function/>}/>
+      <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
+      <Route exact path='/programming/C/Function' element={<Function/>}/> 
+     
 
           {/*c++  */}
           <Route exact path='/programming/CPP' element={<Cpp/>}/>
