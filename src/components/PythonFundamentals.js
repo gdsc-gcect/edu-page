@@ -55,7 +55,7 @@ export default function PythonFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
-                  <Link className="lan-link" to="/">
+                  <Link className="lan-link" to="/programming/python/ConditionalAndLooping">
                     Conditional and looping Statements
                   </Link>
                 </li>
