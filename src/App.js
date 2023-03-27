@@ -26,6 +26,7 @@ import PythonFundamentals from './components/PythonFundamentals';
 import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
+import ConditionalAndLooping from './components/ConditionalAndLooping';
 
 function App() {
   // const [mode,setMode] = useState('black');
@@ -82,6 +83,9 @@ function App() {
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/python/ConditionalAndLooping' element={<ConditionalAndLooping/>}/>
+
+      
 
 
        

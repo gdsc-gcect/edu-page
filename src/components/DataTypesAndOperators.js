@@ -56,7 +56,7 @@ export default function DataTypesAndOperators() {
                 </li>
                 <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
-                  <Link className="lan-link" to="/">
+                  <Link className="lan-link" to="/programming/python/ConditionalAndLooping">
                     Conditional and looping Statements
                   </Link>
                 </li>
@@ -390,29 +390,29 @@ export default function DataTypesAndOperators() {
 
             <ul>
               <li>• Assign value of right side of expression to left side
-                op• erand (x = y + z)</li>
+                operand (x = y + z)</li>
               <li>• Add AND: Add right-side operand with left side
-                op• erand and then assign to left operand (a+=b)</li>
+                operand and then assign to left operand (a+=b)</li>
               <li>• Subtract AND: Subtract right operand from left
-                op• erand and then assign to left operand (a-=b)</li>
+                operand and then assign to left operand (a-=b)</li>
               <li>• Multiply AND: Multiply right operand with left operand
-                an• d then assign to left operand (a*=b)</li>
+                and then assign to left operand (a*=b)</li>
               <li>• Divide AND: Divide left operand with right operand
-                an• d then assign to left operand (a/=b)</li>
+                and then assign to left operand (a/=b)</li>
               <li>• Modulus AND: Takes modulus using left and right
-                op• erands and assign the result to left operand (a%=b)</li>
+                operands and assign the result to left operand (a%=b)</li>
               <li>• Divide(floor) AND: Divide left operand with right
-                op• erand and then assign the value(floor) to left operand (a//=b)</li>
+                operand and then assign the value(floor) to left operand (a//=b)</li>
               <li>• Exponent AND: Calculate exponent(raise power) value
-                us• ing operands and assign value to left operand (a**=b)</li>
+                using operands and assign value to left operand (a**=b)</li>
               <li>• Performs Bitwise AND on operands and assign value to
-                le• ft operand (a&=b)</li>
+                left operand (a&=b)</li>
               <li>• Performs Bitwise OR on operands and assign value to
-                le• ft operand (a|=b)</li>
+                left operand (a|=b)</li>
               <li>• Performs Bitwise xOR on operands and assign value to
-                le• ft operand (a^=b)</li>
+                left operand (a^=b)</li>
               <li>• Performs Bitwise right shift on operands and assign
-                va• lue to left operand (a&gt;&gt;=b)</li>
+                value to left operand (a&gt;&gt;=b)</li>
               <li>• Performs Bitwise left shift on operands and assign
                 value to left operand (a&lt;&lt;=b)</li>
             </ul>
