@@ -73,8 +73,8 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Errors and Exceptions in Python
+                  <Link className="lan-link" to="/programming/C/Error">
+                    Errors and Exceptions 
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
@@ -160,19 +160,23 @@ There are many types of variables in c:
 
 
 
-<h3>for loop in C</h3>
-A for loop is a repetition control structure that allows you to efficiently write a loop that
-needs to execute a specific number of times.
+<h3>Local Variable</h3>
+
+A variable that is declared inside the function or block is called a local variable.
 </p>
 
-<h3>do...while loop in C</h3>
-Unlike for and while loops, which test the loop condition at the top of the loop,
-the do...while loop in C programming language checks its condition at the bottom of the
-loop.
-A do...while loop is similar to a while loop, except that a do...while loop is guaranteed to
-execute at least one time.
+<h3>Global Variable</h3>
+
+A variable that is declared outside the function or block is called a global variable. Any function can change the value of the global variable. It is available to all the functions..
+<h3>Static Variable</h3>
+A variable that is declared with the static keyword is called static variable.
+<h3>Automatic Variable</h3>
+All variables in C that are declared inside the block, are automatic variables by default. We can explicitly declare an automatic variable using auto keyword.
+<h3>External Variable</h3>
+We can share a variable in multiple C source files by using an external variable. To declare an external variable, you need to use extern keyword.
 
 
+          
           </div>
         </div>
       </div>

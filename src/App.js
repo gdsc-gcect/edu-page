@@ -27,6 +27,7 @@ import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
 import Variables from './components/variable'
+import Error from './components/Error and Expectation'
 
 
 
@@ -92,7 +93,7 @@ function App() {
        <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Variables' element={<Variables/>}/>
-
+      <Route exact path='/programming/C/Error' element={<Error/>}/>
 
 
 

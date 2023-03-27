@@ -73,8 +73,8 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Errors 
+                  <Link className="lan-link" to="/programming/C/Error">
+                  Errors and Exceptions
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
