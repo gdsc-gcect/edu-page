@@ -60,11 +60,7 @@ export default function C() {
                   <Link className="lan-link" to="/programming/C/Function">
                    C Functions
                   </Link>
-                </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                  C Scope Rules
-                  </Link>
+                
                 </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
                   <Link className="lan-link" to="/programming/C/Variables">
@@ -77,8 +73,8 @@ export default function C() {
                   </Link>
                 </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>
-                  <Link className="lan-link" to="/">
-                    Tuples
+                  <Link className="lan-link" to="/programming/C/FileHandling">
+                    File Handling
                   </Link>
                 </li><hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                 <li>

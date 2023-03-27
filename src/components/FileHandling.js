@@ -49,13 +49,13 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link-active" to="/programming/C/Coperator">
+                  <Link className="lan-link" to="/programming/C/Coperator">
                     Operators
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/programming/C/Loop">
+                  <Link className="lan-link-active" to="/programming/C/Loop">
                   C loop
                   </Link>
                 </li>
@@ -131,39 +131,25 @@ export default function PYTHONFundamentals() {
           </div>
         </div>
         <div className="program-que-ans">
-          <h2><center><u>Operators</u></center></h2>
+          <h2><center><u>File Handling in C</u></center></h2>
           <div className="program-full-q">
             
            
-            <p>An operator is a Symbol that performs an operation. An operators acts some
-variables are called operands to get the desired result.
+            <p>
+In programming, we may require some specific input data to be generated several numbers of times. Sometimes, it is not enough to only display the data on the console. The data to be displayed may be very large, and only a limited amount of data can be displayed on the console, and since the memory is volatile, it is impossible to recover the programmatically generated data again and again. However, if we need to do so, we may store it onto the local file system which is volatile and can be accessed every time. Here, comes the need of file handling in C.
 
- Ex : a+b;
-Where a,b are operands and + is the operator.
-Types of Operator :<strong>
- <br></br>1. Arithmetic Operators.<br></br>
-2. Relational Operators.<br></br>
-3. Logical Operators.<br></br>
-4. Assignment Operators.<br></br>
-5. Bitwise Operators.<br></br>
-6. other Operators.
-</strong><br></br>
-<h2>Arithmetic Operators</h2>
-An arithmetic operator performs mathematical operations such as addition, subtraction and
-multiplication on numerical values (constants and variables).
-</p>
-<h2> Relational Operators in C</h2>
-<p>These are used for the comparison of the values of two operands. For example, checking if one operand is equal to the other operand or not, whether an operand is greater than the other operand or not, etc.  </p>    
-<h2>Logical Operator in C</h2>
-Logical Operators are used to combining two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a Boolean value either true or false. 
+<br></br>File handling in C enables us to create, update, read, and delete the files stored on the local file system through our C program. The following operations can be performed on a file.<br></br>
 
-For example, the logical AND represented as the ‘&&’ operator in C returns true when both the conditions under consideration are satisfied. Otherwise, it returns false. Therefore, a && b returns true when both a and b are true (i.e. non-zero).
-<h2>Assignment Operators in C</h2>
-Assignment operators are used to assign value to a variable. The left side operand of the assignment operator is a variable and the right side operand of the assignment operator is a value. The value on the right side must be of the same data type as the variable on the left side otherwise the compiler will raise an error. 
+<strong>Creation of the new file<br></br>
+Opening an existing file<br></br>
+Reading from the file<br></br>
+Writing to the file<br></br>
+Deleting the file<br></br>
+</strong>
+ </p>
 
 
-<h2>Bitwise Operators in C </h2>
-The Bitwise operators are used to perform bit-level operations on the operands. The operators are first converted to bit-level and then the calculation is performed on the operands. Mathematical operations such as addition, subtraction, multiplication, etc. can be performed at the bit level for faster processing. For example, the bitwise AND operator represented as ‘&’ in C takes two numbers as operands and does AND on every bit of two numbers. The result of AND is 1 only if both bits are 1(True).
+
 
 
           </div>

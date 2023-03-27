@@ -28,6 +28,8 @@ import Loop from './components/Loop'
 import Function from './components/Function'
 import Variables from './components/variable'
 import Error from './components/Error and Expectation'
+import FileHandling from './components/FileHandling'
+
 
 
 
@@ -95,7 +97,7 @@ function App() {
       <Route exact path='/programming/C/Variables' element={<Variables/>}/>
       <Route exact path='/programming/C/Error' element={<Error/>}/>
 
-
+      <Route exact path='/programming/C/FileHandling' element={<FileHandling/>}/>
 
 
 

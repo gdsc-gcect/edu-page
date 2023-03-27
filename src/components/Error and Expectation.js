@@ -79,8 +79,8 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Lists
+                  <Link className="lan-link" to="/programming/C/FileHandling">
+                  File Handling
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
@@ -136,46 +136,16 @@ export default function PYTHONFundamentals() {
             
            
             <p>
-A variable is a name of the memory location. It is used to store data. Its value can be changed, and it can be reused many times.
-
-It is a way to represent memory location through symbol so that it can be easily identifie
+            <h3>What are Errors?</h3>
+The error signifies a situation that mostly happens due to the absence of system resources. The system crash and memory errors are an example of errors. It majorly occurs at runtime.
 <br></br>
 
- 
- <p>
- <h3>Types of Variables in C</h3>
-There are many types of variables in c:
+<h3>What are Exceptions?</h3>
+The exceptions are the issues that can appear at runtime and compile time. It majorly arises in the code or program authored by the developers. There are two types of exceptions: Checked exceptions and Unchecked exceptions.
+<br></br>
 
-
-<ol>
-
-<li>local variable</li>
-<li>global variable</li>
-<li>static variable</li>
-<li>automatic variable</li>
-<li>external variable</li>
-
-</ol>
  </p>
-
-
-
-<h3>Local Variable</h3>
-
-A variable that is declared inside the function or block is called a local variable.
-</p>
-
-<h3>Global Variable</h3>
-
-A variable that is declared outside the function or block is called a global variable. Any function can change the value of the global variable. It is available to all the functions..
-<h3>Static Variable</h3>
-A variable that is declared with the static keyword is called static variable.
-<h3>Automatic Variable</h3>
-All variables in C that are declared inside the block, are automatic variables by default. We can explicitly declare an automatic variable using auto keyword.
-<h3>External Variable</h3>
-We can share a variable in multiple C source files by using an external variable. To declare an external variable, you need to use extern keyword.
-
-
+ 
           
           </div>
         </div>

@@ -79,8 +79,8 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Lists
+                  <Link className="lan-link" to="/programming/C/FileHandling">
+                  File Handling
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
