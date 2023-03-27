@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import py from "./py.png"
+
 
 export default function Python() {
   const [count, setCount] = useState("none");
@@ -34,8 +34,8 @@ export default function Python() {
           <div id="menu" style={{ width: "100%" }}>
             <div className="leftmenu2">
               <div className="spanh2">
-                <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img>
-                <h2 className="python">PYTHON</h2>
+                
+                <h2 className="python">C Programming</h2>
               </div>
 
             </div>
