@@ -62,7 +62,7 @@ export default function ConditionalAndLooping() {
                                 </li>
                                 <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
                                 <li>
-                                    <Link className="lan-link" to="/">
+                                    <Link className="lan-link" to="/programming/python/StringsPython">
                                         Strings
                                     </Link>
                                 </li>
