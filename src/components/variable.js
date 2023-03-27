@@ -67,8 +67,8 @@ export default function PYTHONFundamentals() {
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
                 <li>
-                  <Link className="lan-link" to="/">
-                    Errors and Exceptions in Python
+                  <Link className="lan-link" to="/programming/C/Variables">
+                  Variables
                   </Link>
                 </li>
                 <hr className="featurette-divider" style={{color:"#a6a6af"}}/>
@@ -131,36 +131,31 @@ export default function PYTHONFundamentals() {
           </div>
         </div>
         <div className="program-que-ans">
-          <h2><center><u>Variable</u></center></h2>
+          <h2><center><u>Variables in C</u></center></h2>
           <div className="program-full-q">
             
            
-            <p>There may be a situation, when you need to execute a block of code several number
-of times. In general, statements are executed sequentially: The first statement in a
-function is executed first, followed by the second, and so on.
-Programming languages provide various control structures that allow for more complicated
-execution paths.
-A loop statement allows us to execute a statement or group of statements multiple times.<br></br>
-Loop:-it is a block of statement that performs set of instructions. In loops
-Repeating particular portion of the program either a specified number of time or
-until a particular no of condition is being satisfied.
-There are three types of loops in c
+            <p>
+A variable is a name of the memory location. It is used to store data. Its value can be changed, and it can be reused many times.
+
+It is a way to represent memory location through symbol so that it can be easily identifie
 <br></br>
-1.While loop<br></br>
-2.do while loop<br></br>
-3.for loop 
-<h3>while loop in C</h3>
+
  
  <p>
- A while loop statement in C programming language repeatedly executes a target
-statement as long as a given condition is true.
-Syntax
+ <h3>Types of Variables in C</h3>
+There are many types of variables in c:
 
-The condition may be any expression, and true is any nonzero value. The loop iterates
-while the condition is true.
-When the condition becomes false, program control passes to the line immediately
-following the loop.
 
+<ol>
+
+<li>local variable</li>
+<li>global variable</li>
+<li>static variable</li>
+<li>automatic variable</li>
+<li>external variable</li>
+
+</ol>
  </p>
 
 
