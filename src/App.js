@@ -29,6 +29,8 @@ import Function from './components/Function'
 import Variables from './components/variable'
 import Error from './components/Error and Expectation'
 import FileHandling from './components/FileHandling'
+import ConditionalAndLooping from './components/ConditionalAndLooping';
+import StringsPython from './components/StringsPython';
 
 
 
@@ -89,6 +91,8 @@ function App() {
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/python/ConditionalAndLooping' element={<ConditionalAndLooping/>}/>
+      <Route exact path='/programming/python/StringsPython' element={<StringsPython/>}/>
 
 
        
