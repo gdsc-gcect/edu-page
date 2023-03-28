@@ -378,7 +378,7 @@ div.element{
   display:flex;
 }
 .heading {
-  width: 32%;
+  width: 53%;
   display: flex;
  flex-direction: column;
   align-items: center;
@@ -426,13 +426,19 @@ clip-path: circle(90% at 88% 44%);
 }
 
 @media screen and (max-width: 1200px) {
+  #carouselExampleIndicators{
+    
+  clip-path: circle(70% at 88% 44%);
+  }
+}
+@media screen and (max-width: 700px) {
   #carouselExampleIndicators {
     display: none;
   }
   .heading {
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-image: url(C:\Users\shrey\edu-page\src\components\img.jpg);
+    color: rgb(12, 0, 0);
     height: 300px;
   }
   .head-btn{
@@ -662,9 +668,11 @@ ul li{
     display: flex;
     justify-content: flex-end;
   }
-.code{
+.code ,.output{
   width:100%;
   background-color: #000000;
+  margin: 10px;
+  color: #ffffff;
   padding: 10px;
 }
 .atn{
@@ -699,3 +707,56 @@ color: #ececec;
     left:50%;
     transform:translate(-50%,-50%)
   }
+  .com{
+    color: #b22424;
+    margin-left: 5px;
+  }
+  .topic{
+    background-image: linear-gradient(135deg,#cb8a8a,#ffffff);
+    padding: 5px;
+    
+  }
+  .ace-idle-fingers ,.ace_keyword, .ace-idle-fingers, .ace_meta {
+    color: #CC7833;
+    word-wrap: normal;
+    white-space: pre;
+}
+.ace-idle-fingers, .ace_string {
+  color: #A5C261;
+  word-wrap: normal;
+  white-space: pre;
+}
+.ace_constant, .ace-idle-fingers .ace_constant.ace_character, .ace-idle-fingers .ace_constant.ace_character.ace_escape, .ace-idle-fingers .ace_constant.ace_other, .ace-idle-fingers .ace_support.ace_constant {
+  color: #6C99BB;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.ace_identifier,.ace_storage,.ace_punctuation, .ace_operator,.ace_paren, .ace_rparen{
+  color: #e4e5ec;
+}
+
+.code,.output {
+   
+    word-wrap: normal;
+    white-space: pre;
+    height: 100%;
+    width: 100%;
+    
+}
+.ace_comment{
+  color:#fbde00;
+  font-size: 20px;
+  
+}
+.btn-copy{
+  float: right;
+  cursor: pointer;
+  width:30px;
+}
+.fa{
+  cursor: pointer;
+}
+.btn-copy:hover{
+  background-color: #6b726e;
+}

@@ -45,81 +45,10 @@ export default function CppFundamentals() {
             </div>
             <div className="leftmenu">
               <ul>
+            
                 <li>
-                  <Link
-                    className="lan-link-active"
-                    to="/programming/CPP/fundamentals"
-                  >
-                    Fundamental Types, Constants, and Variables
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link
-                    className="lan-link"
-                    to="/programming/python/DataTypesAndOperators"
-                  >
-                    Introductions to Classes,Objects and Strings
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link
-                    className="lan-link"
-                    to="/programming/python/DataTypesAndOperators"
-                  >
-                    Classes
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Control Statements
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Functions
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Array and Vectors
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Pointers
-                  </Link>
-                </li>
-                <hr
-                  className="featurette-divider"
-                  style={{ color: "#a6a6af" }}
-                />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Standard Template Library(STL)
+                  <Link className="lan-link" to='/programming/Cpp/stl'>
+                   List
                   </Link>
                 </li>
                 <hr
@@ -226,92 +155,92 @@ thus capable of storing modern Unicode characters. Unicode is a 16-bit code  and
     
        
         <div className="code">
-     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> 
+     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="tag" >&lt;stdio.h&gt;</span>
+    <span className="atn">#include</span>
+      <span className="tag" >&lt;stdio.h&gt;</span>
      
       <br/>
-      <span class="pln">  </span>
-      <span class="atn">int</span>
-      <span class="pln"> </span>
-      <span class="atn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="atn">int</span>
+      <span className="pln"> </span>
+      <span className="atn">main()&#123;</span>
       <br/>
       &emsp;
-      <span class="atv">printf("my name");</span>
+      <span className="atv">printf("my name");</span>
       <br></br>
       &emsp;
-      <span class="atn">return 0;</span>
+      <span className="atn">return 0;</span>
       <br/>
-      <span class="atn">&#125;</span>
+      <span className="atn">&#125;</span>
       {/* <br/>&emsp;&emsp;
-      <span class="tag" >&lt;section</span>
-      <span class="pln"> </span>
-      <span class="atn">id</span>
-      <span class="pun">=</span>
-      <span class="atv">"hero"</span>
-      <span class="tag">&gt;</span>
-      <span class="pln"></span> 
+      <span className="tag" >&lt;section</span>
+      <span className="pln"> </span>
+      <span className="atn">id</span>
+      <span className="pun">=</span>
+      <span className="atv">"hero"</span>
+      <span className="tag">&gt;</span>
+      <span className="pln"></span> 
    </div>
            
         </div>  
         <div className="code">
-     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> 
+     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="tag" >&lt;stdio.h&gt;</span>
+    <span className="atn">#include</span>
+      <span className="tag" >&lt;stdio.h&gt;</span>
      
       <br/>
-      <span class="pln">  </span>
-      <span class="atn">int</span>
-      <span class="pln"> </span>
-      <span class="atn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="atn">int</span>
+      <span className="pln"> </span>
+      <span className="atn">main()&#123;</span>
       <br/>
       &emsp;
-      <span class="atv">printf("my name");</span>
+      <span className="atv">printf("my name");</span>
       <br></br>
       &emsp;
-      <span class="atn">return 0;</span>
+      <span className="atn">return 0;</span>
       <br/>
-      <span class="atn">&#125;</span>
+      <span className="atn">&#125;</span>
       {/* <br/>&emsp;&emsp;
-      <span class="tag" >&lt;section</span>
-      <span class="pln"> </span>
-      <span class="atn">id</span>
-      <span class="pun">=</span>
-      <span class="atv">"hero"</span>
-      <span class="tag">&gt;</span>
-      <span class="pln"></span> 
+      <span className="tag" >&lt;section</span>
+      <span className="pln"> </span>
+      <span className="atn">id</span>
+      <span className="pun">=</span>
+      <span className="atv">"hero"</span>
+      <span className="tag">&gt;</span>
+      <span className="pln"></span> 
    </div>
            
         </div> 
         <div className="code">
-     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> 
+     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="tag" >&lt;stdio.h&gt;</span>
+    <span className="atn">#include</span>
+      <span className="tag" >&lt;stdio.h&gt;</span>
      
       <br/>
-      <span class="pln">  </span>
-      <span class="atn">int</span>
-      <span class="pln"> </span>
-      <span class="atn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="atn">int</span>
+      <span className="pln"> </span>
+      <span className="atn">main()&#123;</span>
       <br/>
       &emsp;
-      <span class="atv">printf("my name");</span>
+      <span className="atv">printf("my name");</span>
       <br></br>
       &emsp;
-      <span class="atn">return 0;</span>
+      <span className="atn">return 0;</span>
       <br/>
-      <span class="atn">&#125;</span>
+      <span className="atn">&#125;</span>
       {/* <br/>&emsp;&emsp;
-      <span class="tag" >&lt;section</span>
-      <span class="pln"> </span>
-      <span class="atn">id</span>
-      <span class="pun">=</span>
-      <span class="atv">"hero"</span>
-      <span class="tag">&gt;</span>
-      <span class="pln"></span> 
+      <span className="tag" >&lt;section</span>
+      <span className="pln"> </span>
+      <span className="atn">id</span>
+      <span className="pun">=</span>
+      <span className="atv">"hero"</span>
+      <span className="tag">&gt;</span>
+      <span className="pln"></span> 
    </div>
            
         </div>   
