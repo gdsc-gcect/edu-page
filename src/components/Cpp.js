@@ -3,15 +3,14 @@ import { Link } from 'react-router-dom';
 // import cpp from './cpp.png'
 
 export default function Cpp() {
-  // const handlecopy=()=>{
-  //   var text = document.getElementsByClassName("code").innerText;
-  //   // alert(text);
-  //   // this.text.select();
-     
-  //   navigator.clipboard.writeText(text);
-    
-    
-  // }
+  const handlecopy = () => {
+    var text = document.getElementById("first").innerText;
+    //
+    //  this.text.select();
+
+    navigator.clipboard.writeText(text);
+    alert("copied");
+  };
   const [count, setCount] = useState("none");
   const navexpand = () => {
 
@@ -46,103 +45,23 @@ export default function Cpp() {
                 {/* <img className="bd-placeholder-img rounded-circle" width="40" height="40" src={py} alt="..."></img> */}
                 <h2 className="python">C++</h2>
               </div>
-
             </div>
             <div className="leftmenu">
               <ul>
-                <li>
-                  <Link
-                    className="lan-link"
-                    to="/programming/CPP/fundamentals"
-                  >
-                    Fundamental Types, Constants, and Variables
+              <li>
+                  <Link className="lan-link" to="/programming/Cpp/list">
+                    List
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/programming/python/DataTypesAndOperators">
-                    Introductions to Classes,Objects and Strings
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/programming/python/DataTypesAndOperators">
-                    Classes
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
+                <hr
+                  className="featurette-divider"
+                  style={{ color: "#a6a6af" }}
+                />
                 <li>
                   <Link className="lan-link" to="/">
-                    Control Statements
+                    Vector
                   </Link>
                 </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Functions 
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Array and Vectors
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Pointers
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Standard Template Library(STL)
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Tuples
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Dictionary
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Modules
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Functions
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    OOP with Python
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    File Handling
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
-                <li>
-                  <Link className="lan-link" to="/">
-                    Recursion
-                  </Link>
-                </li>
-                <hr className="featurette-divider" style={{ color: "#a6a6af" }} />
               </ul>
             </div>
           </div>
@@ -162,42 +81,40 @@ export default function Cpp() {
               C++ supports the concepts of object-oriented programming  which are:
               <ul>
                 <li>
-                <span class="atn">Data abstraction </span>
+                <span className="atn">Data abstraction </span>
                 </li>
                 <li>
-                <span class="atn">Data encapsulation </span>
+                <span className="atn">Data encapsulation </span>
                 </li>
                 <li>
-                <span class="atn">Inheritance </span> 
+                <span className="atn">Inheritance </span> 
                 </li>
                 <li>
-                <span class="atn">Polymorphism </span>
+                <span className="atn">Polymorphism </span>
                 </li>
               </ul>
             </li>
             <li className="MsoNormal">
              Structure of a C++ Program
              <div className="code">
-    {/* <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> */}
+     <button className="btn-copy"  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="atn" >&lt;iostream&gt;</span>
+    <span className="atn">#include</span>
+      <span className="atn" >&lt;iostream&gt;</span>
       <br/>
-      <span class="atn" >using namespace </span>
-      <span class="tag" >std;</span>
+      <span className="atn" >using namespace </span>
+      <span className="tag" >std;</span>
       <br/>
-      <span class="pln">  </span>
-      <span class="int">int</span>
-      <span class="pln"> </span>
-      <span class="atvn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="int">int</span>
+      <span className="pln"> </span>
+      <span className="atvn">main()&#123;</span>
       <br/>
-      &emsp;
-   
-      &emsp;
-      <span class="return">return </span>
-      <span class="atnv"> 0;</span>
+      <span className="pln"> </span>
+      <span className="return">return </span>
+      <span className="atnv"> 0;</span>
       <br/>
-      <span class="tag">&#125;</span>
+      <span className="tag">&#125;</span>
       
    </div>
            
@@ -210,92 +127,92 @@ export default function Cpp() {
     
        
         <div className="code">
-     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> 
+     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="tag" >&lt;stdio.h&gt;</span>
+    <span className="atn">#include</span>
+      <span className="tag" >&lt;stdio.h&gt;</span>
      
       <br/>
-      <span class="pln">  </span>
-      <span class="atn">int</span>
-      <span class="pln"> </span>
-      <span class="atn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="atn">int</span>
+      <span className="pln"> </span>
+      <span className="atn">main()&#123;</span>
       <br/>
       &emsp;
-      <span class="atv">printf("my name");</span>
+      <span className="atv">printf("my name");</span>
       <br></br>
       &emsp;
-      <span class="atn">return 0;</span>
+      <span className="atn">return 0;</span>
       <br/>
-      <span class="atn">&#125;</span>
+      <span className="atn">&#125;</span>
       {/* <br/>&emsp;&emsp;
-      <span class="tag" >&lt;section</span>
-      <span class="pln"> </span>
-      <span class="atn">id</span>
-      <span class="pun">=</span>
-      <span class="atv">"hero"</span>
-      <span class="tag">&gt;</span>
-      <span class="pln"></span> 
+      <span className="tag" >&lt;section</span>
+      <span className="pln"> </span>
+      <span className="atn">id</span>
+      <span className="pun">=</span>
+      <span className="atv">"hero"</span>
+      <span className="tag">&gt;</span>
+      <span className="pln"></span> 
    </div>
            
         </div>  
         <div className="code">
-     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> 
+     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="tag" >&lt;stdio.h&gt;</span>
+    <span className="atn">#include</span>
+      <span className="tag" >&lt;stdio.h&gt;</span>
      
       <br/>
-      <span class="pln">  </span>
-      <span class="atn">int</span>
-      <span class="pln"> </span>
-      <span class="atn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="atn">int</span>
+      <span className="pln"> </span>
+      <span className="atn">main()&#123;</span>
       <br/>
       &emsp;
-      <span class="atv">printf("my name");</span>
+      <span className="atv">printf("my name");</span>
       <br></br>
       &emsp;
-      <span class="atn">return 0;</span>
+      <span className="atn">return 0;</span>
       <br/>
-      <span class="atn">&#125;</span>
+      <span className="atn">&#125;</span>
       {/* <br/>&emsp;&emsp;
-      <span class="tag" >&lt;section</span>
-      <span class="pln"> </span>
-      <span class="atn">id</span>
-      <span class="pun">=</span>
-      <span class="atv">"hero"</span>
-      <span class="tag">&gt;</span>
-      <span class="pln"></span> 
+      <span className="tag" >&lt;section</span>
+      <span className="pln"> </span>
+      <span className="atn">id</span>
+      <span className="pun">=</span>
+      <span className="atv">"hero"</span>
+      <span className="tag">&gt;</span>
+      <span className="pln"></span> 
    </div>
            
         </div> 
         <div className="code">
-     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i class="fa fa-clone"></i></button> 
+     <button className="btn-copy "  title="Copy to Clipboard" onClick={handlecopy} ><i className="fa fa-clone"></i></button> 
     <div className="prettyprint lang-html prettyprinted" id='first'>
-    <span class="atn">#include</span>
-      <span class="tag" >&lt;stdio.h&gt;</span>
+    <span className="atn">#include</span>
+      <span className="tag" >&lt;stdio.h&gt;</span>
      
       <br/>
-      <span class="pln">  </span>
-      <span class="atn">int</span>
-      <span class="pln"> </span>
-      <span class="atn">main()&#123;</span>
+      <span className="pln">  </span>
+      <span className="atn">int</span>
+      <span className="pln"> </span>
+      <span className="atn">main()&#123;</span>
       <br/>
       &emsp;
-      <span class="atv">printf("my name");</span>
+      <span className="atv">printf("my name");</span>
       <br></br>
       &emsp;
-      <span class="atn">return 0;</span>
+      <span className="atn">return 0;</span>
       <br/>
-      <span class="atn">&#125;</span>
+      <span className="atn">&#125;</span>
       {/* <br/>&emsp;&emsp;
-      <span class="tag" >&lt;section</span>
-      <span class="pln"> </span>
-      <span class="atn">id</span>
-      <span class="pun">=</span>
-      <span class="atv">"hero"</span>
-      <span class="tag">&gt;</span>
-      <span class="pln"></span> 
+      <span className="tag" >&lt;section</span>
+      <span className="pln"> </span>
+      <span className="atn">id</span>
+      <span className="pun">=</span>
+      <span className="atv">"hero"</span>
+      <span className="tag">&gt;</span>
+      <span className="pln"></span> 
    </div>
            
         </div>   
