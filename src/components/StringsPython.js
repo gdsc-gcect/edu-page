@@ -276,8 +276,8 @@ export default function StringsPython() {
                             <li>• %c for Character</li>
                             <li>• %s for String</li>
                             <li>• %f for Floating-point real number</li>
-                            </ul></strong>
-    
+                        </ul></strong>
+
                     </div>
                 </div>
             </div>
