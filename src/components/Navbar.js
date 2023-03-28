@@ -42,7 +42,7 @@ export default function Navbar() {
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="/programming/c" onClick={st}>C</Link></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>C++</Link></li>
+            <li><Link className="dropdown-item" to="/programming/CPP" onClick={st}>C++</Link></li>
             <li><Link className="dropdown-item" to="/programming/python" onClick={st}>Python</Link></li>
             <li><Link className="dropdown-item" to="/programming/java" onClick={st}>Java</Link></li>
             <li><Link className="dropdown-item" to="/" onClick={st}>JavaScript</Link></li>
@@ -63,6 +63,7 @@ export default function Navbar() {
             <li><Link className="dropdown-item" to="/dsa/binarysearchtree" onClick={st}>BinarySearchTree</Link></li>
             <li><Link className="dropdown-item" to="/dsa/heap"onClick={st}>Heap</Link></li>
             <li><Link className="dropdown-item" to="/dsa/hashing" onClick={st}>Hashing</Link></li>
+            <li><Link className="dropdown-item" to="/dsa/dynamic" onClick={st}>Dynamic</Link></li>
             <li><Link className="dropdown-item" to="/"onClick={st}>Graph</Link></li>
    
 

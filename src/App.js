@@ -16,14 +16,28 @@ import Hashing from './components/Hashing';
 import Heap from './components/Heap';
 import Binarysearchtree from './components/Binarysearchtree';
 import Queue from './components/Queue';
+import Dynamic from './components/Dynamic';
 import Programming from './components/Programming';
 import C from './components/C';
+import CFundamentals from './components/CFundamentals';
+import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
 import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Javaoverview from './components/Javaoverview';
 import Java from './components/Java';
 import Jdata from './components/Javadatatypes';
+import Coperator from './components/Coperator'
+import Loop from './components/Loop'
+import Function from './components/Function'
+import Variables from './components/variable'
+import Error from './components/Error and Expectation'
+import FileHandling from './components/FileHandling'
+
+
+
+
+
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -72,25 +86,27 @@ function App() {
       <Route exact path='/dsa/heap' element={<Heap/>}/>
       <Route exact path='/dsa/Binarysearchtree' element={<Binarysearchtree/>}/>
       <Route exact path='/dsa/hashing' element={<Hashing/>}/>    
+      <Route exact path='/dsa/dynamic' element={<Dynamic/>}/>
       <Route exact path='/programming' element={<Programming/>}/>
-      <Route exact path='/programming/c' element={<C/>}/>
+
+      
       <Route exact path='/programming/python' element={<Python/>}/>
       <Route exact path='/programming/java' element={<Java/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
       <Route exact path='/programming/javaoverview' element={<Javaoverview/>}/>
       <Route exact path='/programming/javadatatypes' element={<Jdata/>}/>
-          
+       <Route exact path='/programming/C' element={<C/>}/>
+      <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
+      <Route exact path='/programming/C/Variables' element={<Variables/>}/>
+      <Route exact path='/programming/C/Error' element={<Error/>}/>
+      <Route exact path='/programming/C/FileHandling' element={<FileHandling/>}/>     
+      <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
+      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
+      <Route exact path='/programming/C/Function' element={<Function/>}/> 
        </Routes>  
        <Footer/>
-       
-      
-      
-      
-      
-       
-       
-   
       </>
   
   );

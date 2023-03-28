@@ -662,3 +662,40 @@ ul li{
     display: flex;
     justify-content: flex-end;
   }
+.code{
+  width:100%;
+  background-color: #000000;
+  padding: 10px;
+}
+.atn{
+color: rgb(42, 212, 8);
+}
+.atv{
+  color: rgb(255, 213, 0);
+}
+.pln{
+  color: rgb(169, 218, 247);
+
+}
+.tag{
+  color: rgb(206, 235, 149);
+
+}
+.int{
+  color:#e10000
+}
+.atvn{
+  color: #57a5ff;
+}
+.atnv{
+color: #ececec;
+}
+.return{
+  color: #b84af3;
+  }
+  .center-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+  }
