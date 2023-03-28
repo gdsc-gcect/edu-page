@@ -23,7 +23,6 @@ import CFundamentals from './components/CFundamentals';
 import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
-import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Javaoverview from './components/Javaoverview';
 import Java from './components/Java';
 import Jdata from './components/Javadatatypes';
@@ -102,7 +101,9 @@ function App() {
       <Route exact path='/programming/C/Error' element={<Error/>}/>
       <Route exact path='/programming/C/FileHandling' element={<FileHandling/>}/>     
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
+
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      
       <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
       <Route exact path='/programming/C/Function' element={<Function/>}/> 
        </Routes>  
