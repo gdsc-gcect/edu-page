@@ -21,6 +21,9 @@ import C from './components/C';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
 import DataTypesAndOperators from './components/DataTypesAndOperators';
+import Javaoverview from './components/Javaoverview';
+import Java from './components/Java';
+import Jdata from './components/Javadatatypes';
 function App() {
   // const [mode,setMode] = useState('black');
   // const [alert,setAlert] =useState(null);
@@ -72,8 +75,11 @@ function App() {
       <Route exact path='/programming' element={<Programming/>}/>
       <Route exact path='/programming/c' element={<C/>}/>
       <Route exact path='/programming/python' element={<Python/>}/>
+      <Route exact path='/programming/java' element={<Java/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/javaoverview' element={<Javaoverview/>}/>
+      <Route exact path='/programming/javadatatypes' element={<Jdata/>}/>
           
        </Routes>  
        <Footer/>
