@@ -19,7 +19,7 @@ export default function Footer() {
         
         <footer className="container">
     <p className="float-end"><Link onClick={scrollToTop} ><div className="fa fa-arrow-circle-o-up" aria-hidden="true"/>	</Link></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="/">Privacy</a> &middot; <a href="/">Terms</a></p>
+    <p>&copy; Code Library &middot; <a href="/">Privacy</a> &middot; <a href="/">Terms</a></p>
   </footer>
 
     </div>

@@ -43,27 +43,27 @@ export default function About() {
         <div className="row">
           <div className="col-lg-3">
             <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={shreyasi} alt="..."></img>
-            <h2>Shreyasi Debnath</h2>
-            <p>Web Developer || Competitive Programmer || IT Undergrad'25</p>
+            <h3>Shreyasi Debnath</h3>
             <div><ul className='about-links'>
               <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/shreyasidebnath/" target="_blank" rel="noreferrer"> </a></li>
               <li><a className="fa fa-github" href="https://github.com/ShreyasiDebnath" target="_blank" rel="noreferrer"> </a></li>
             </ul></div>
+            <p >Hey there!, I am Shreyasi Debnath, a Full stack Web Developer.Love to create web application and design them . We can connect through Linkedin  .</p>
+            
           </div>
           <div className="col-lg-3">
             <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={arghya} alt="..." style={{ backgroundColor: "black" }}></img>
-            <h2>Arghyadip Dhara</h2>
-            <p>Web Developer || Full Stack Developer || IT Undergrad'25 || Tech Enthusiast || Learner</p>
+            <h3 >Arghyadip Dhara</h3>
             <div><ul className='about-links'>
               <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/arghyadip-dhara-68a3b51b7/" target="_blank" rel="noreferrer"> </a></li>
               <li><a className="fa fa-github" href="https://github.com/arghyadip700" target="_blank" rel="noreferrer"> </a></li>
             </ul></div>
+            <p >Web Developer || Full Stack Developer || IT Undergrad'25 || Tech Enthusiast || Learner</p>
+            
           </div>
           <div className="col-lg-3">
             <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={alapan} alt="..."></img>
-            <h2>Alapan Das</h2>
-            <p>Hey, I am Alapan Das, aspiring Frontend and Machine-Learning Developer from India. We can connect through Linkedin and Twitter below.
-            </p>
+            <h3>Alapan Das</h3>
             <div>
 
               <ul className='about-links'>
@@ -72,15 +72,19 @@ export default function About() {
               </ul>
 
             </div>
+            <p >Hey, I am Alapan Das, aspiring Frontend and Machine-Learning Developer from India. We can connect through Linkedin and Twitter .
+            </p>
+            
           </div>
           <div className="col-lg-3">
             <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={saheli} alt="..."></img>
-            <h2>Saheli Pal</h2>
-            <p>Web Developer || Tech Enthusiast || IT Undergrad'25 || Learner</p>
+            <h3>Saheli Pal</h3>
             <div><ul className='about-links'>
               <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/saheli-pal-0932671bb/" target="_blank" rel="noreferrer"> </a></li>
               <li><a className="fa fa-github" href="https://github.com/sahelipal1" target="_blank" rel="noreferrer"> </a></li>
             </ul></div>
+            <p >Web Developer || Tech Enthusiast || IT Undergrad'25 || Learner</p>
+            
           </div>
         </div>
       </div>
