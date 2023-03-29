@@ -437,7 +437,7 @@ clip-path: circle(90% at 88% 44%);
   }
   .heading {
     width: 100%;
-    background-image: url(C:\Users\shrey\edu-page\src\components\img.jpg);
+    background-image: url('./components/img.jpg');
     color: rgb(12, 0, 0);
     height: 300px;
   }
