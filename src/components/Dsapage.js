@@ -36,9 +36,6 @@ export default function Dsapage() {
        <div className='items-dsa' to='/dsa/hashing'> HASHING</div>
       </Link>
       <Link className='dsa-item'  to='/'>
-       <div className='items-dsa' to='/'> GRAPH</div>
-      </Link>
-      <Link className='dsa-item'  to='/'>
        <div className='items-dsa' to='/'> DYNAMIC PROGRAMMING</div>
       </Link>
       </div>

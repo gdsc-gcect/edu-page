@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <div className='front' style={{ margin: "57px 0px 0px 0px" }}>
         <div className='heading'  >
-          <div style={{ display: "flex" }}><h3 style={{ marginRight: "5px" }}>Welcome to</h3><h2 style={{ color: "red" }}  >EDU PAGE</h2></div>
+          <div style={{ display: "flex" }}><h3 style={{ marginRight: "5px" }}>Welcome to</h3><h2 style={{ color: "red" }}  >CODE LIBRARY</h2></div>
           <p style={{ display:"flex",justifyContent:"center",padding:"1px"}}>C,C++,JAVA,PYTHON,</p>
           <p style={{ display:"flex",justifyContent:"center",padding:"1px"}}>DATA STRUCTURE AND ALGORITHM</p>
           <div style={{margin:"15px"}}>
@@ -145,57 +145,6 @@ export default function Home() {
                 <h5 className="card-title">Programming</h5>
                 <p className="card-text"></p>
                 <button to="/programming" className="btn btn-primary">Explore</button>
-              </div>
-            </Link>
-          </div>
-          <div className='Two-card'>
-            <Link to="/" className="card" data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="150"
-              data-aos-easing="ease-in-sine" >
-              <img src={code} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text"></p>
-                <button href="/" className="btn btn-primary">Explore</button>
-              </div>
-            </Link>
-            <Link to="/" className="card" data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="150"
-              data-aos-easing="ease-in-sine" >
-              <img src={code} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text"></p>
-                <button href="/" className="btn btn-primary">Explore</button>
-              </div>
-            </Link>
-          </div>
-        </div>
-        <div className='element-name'>Programming Language</div>
-        <div className='element'>
-          <div className='Two-card'>
-            <Link to="/" className="card" data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="150"
-              data-aos-easing="ease-in-sine" >
-              <img src={code} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text"></p>
-                <button href="/" className="btn btn-primary">Explore</button>
-              </div>
-            </Link>
-            <Link to="/" className="card" data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-offset="150"
-              data-aos-easing="ease-in-sine"  >
-              <img src={code} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text"></p>
-                <button href="/" className="btn btn-primary">Explore</button>
               </div>
             </Link>
           </div>

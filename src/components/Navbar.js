@@ -22,7 +22,7 @@ export default function Navbar() {
     <div className='navbar-fix'>
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style={{width:"100%"}}>
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/" onClick={st}>EDU-PAGE</Link>
+    <Link className="navbar-brand" to="/" onClick={st}>CODE LIBRARY</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={navexpand}>
       <span className="navbar-toggler-icon"></span>
       
@@ -45,7 +45,6 @@ export default function Navbar() {
             <li><Link className="dropdown-item" to="/programming/CPP" onClick={st}>C++</Link></li>
             <li><Link className="dropdown-item" to="/programming/python" onClick={st}>Python</Link></li>
             <li><Link className="dropdown-item" to="/programming/java" onClick={st}>Java</Link></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>JavaScript</Link></li>
             <li><hr className="dropdown-divider"/></li>
             <li><Link className="dropdown-item" to="/programming" onClick={st} style={{color:"#280e8f"}}>View</Link></li>
           </ul>
@@ -64,22 +63,10 @@ export default function Navbar() {
             <li><Link className="dropdown-item" to="/dsa/heap"onClick={st}>Heap</Link></li>
             <li><Link className="dropdown-item" to="/dsa/hashing" onClick={st}>Hashing</Link></li>
             <li><Link className="dropdown-item" to="/dsa/dynamic" onClick={st}>Dynamic</Link></li>
-            <li><Link className="dropdown-item" to="/"onClick={st}>Graph</Link></li>
    
 
             <li><hr className="dropdown-divider"/></li>
             <li><Link className="dropdown-item" to="/dsa" style={{color:"#280e8f"}}>All Data Structures</Link></li>
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            CS/IT Core Subjects
-          </Link>
-          <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/" onClick={st}>Action</Link></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>Another action</Link></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="/" onClick={st}>Something else here</Link></li>
           </ul>
         </li>
         
