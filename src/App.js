@@ -23,6 +23,9 @@ import CFundamentals from './components/CFundamentals';
 import DataTypesAndOperators from './components/DataTypesAndOperators';
 import Python from './components/Python';
 import PythonFundamentals from './components/PythonFundamentals';
+import Javaoverview from './components/Javaoverview';
+import Java from './components/Java';
+import Jdata from './components/Javadatatypes';
 import Coperator from './components/Coperator'
 import Loop from './components/Loop'
 import Function from './components/Function'
@@ -93,17 +96,21 @@ function App() {
 
       
       <Route exact path='/programming/python' element={<Python/>}/>
+      <Route exact path='/programming/java' element={<Java/>}/>
       <Route exact path='/programming/python/PythonFundamentals' element={<PythonFundamentals/>}/>
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
+      <Route exact path='/programming/javaoverview' element={<Javaoverview/>}/>
+      <Route exact path='/programming/javadatatypes' element={<Jdata/>}/>
       <Route exact path='/programming/python/ConditionalAndLooping' element={<ConditionalAndLooping/>}/>
       <Route exact path='/programming/python/StringsPython' element={<StringsPython/>}/>
-
-
-       
        <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Variables' element={<Variables/>}/>
       <Route exact path='/programming/C/Error' element={<Error/>}/>
+      <Route exact path='/programming/C/FileHandling' element={<FileHandling/>}/>     
+      <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
+
+      <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
       <Route exact path='/programming/C/FileHandling' element={<FileHandling/>}/>
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
       <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
@@ -113,14 +120,6 @@ function App() {
       <Route exact path='/programming/Cpp/list' element={<Cppstl/>}/>
        </Routes>  
        <Footer/>
-       
-      
-      
-      
-      
-       
-       
-   
       </>
   
   );
