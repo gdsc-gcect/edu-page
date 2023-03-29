@@ -32,6 +32,12 @@ import Function from './components/Function'
 import Variables from './components/variable'
 import Error from './components/Error and Expectation'
 import FileHandling from './components/FileHandling'
+import Cpp from './components/Cpp';
+import CppFundamentals from './components/CppFundamentals';
+import Cppstl from './components/Cppstl';
+import ConditionalAndLooping from './components/ConditionalAndLooping';
+import StringsPython from './components/StringsPython';
+
 
 
 
@@ -95,6 +101,8 @@ function App() {
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
       <Route exact path='/programming/javaoverview' element={<Javaoverview/>}/>
       <Route exact path='/programming/javadatatypes' element={<Jdata/>}/>
+      <Route exact path='/programming/python/ConditionalAndLooping' element={<ConditionalAndLooping/>}/>
+      <Route exact path='/programming/python/StringsPython' element={<StringsPython/>}/>
        <Route exact path='/programming/C' element={<C/>}/>
       <Route exact path='/programming/C/CFundamentals' element={<CFundamentals/>}/>
       <Route exact path='/programming/C/Variables' element={<Variables/>}/>
@@ -103,9 +111,13 @@ function App() {
       <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
 
       <Route exact path='/programming/python/DataTypesAndOperators' element={<DataTypesAndOperators/>}/>
-      
+      <Route exact path='/programming/C/FileHandling' element={<FileHandling/>}/>
+      <Route exact path='/programming/C/Coperator' element={<Coperator/>}/>
       <Route exact path='/programming/C/Loop' element={<Loop/>}/> 
       <Route exact path='/programming/C/Function' element={<Function/>}/> 
+      <Route exact path='/programming/Cpp' element={<Cpp/>}/>
+      <Route exact path='/programming/Cpp/fundamentals' element={<CppFundamentals/>}/>
+      <Route exact path='/programming/Cpp/list' element={<Cppstl/>}/>
        </Routes>  
        <Footer/>
       </>

@@ -97,7 +97,7 @@ export default function Home() {
             </Link>
           </div>
           <div className='Two-card'>
-            <Link to="/" className="card" data-aos="fade-up"
+            <Link to='/programming/Cpp' className="card" data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-offset="150"
               data-aos-easing="ease-in-sine" >

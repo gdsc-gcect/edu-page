@@ -121,7 +121,7 @@ export default function PYTHONFundamentals() {
 
 <h2>Keywords in C</h2>
 <p>We can define the keywords as the reserved or pre-defined words that hold their own importance. It means that every keyword has a functionality of its own. Since the keywords are basically predefined words that the compilers use, thus we cannot use them as the names of variables. If we use the keywords in the form of variable names, it would mean that we assign a different meaning to it- something that isn&#8217;t allowed. The C language provides a support for 32 keywords, as mentioned below:</p>
-<table class="table table-bordered">
+<table className="table table-bordered">
 <tbody>
 <tr>
 <td><strong>auto</strong></td>
@@ -225,7 +225,7 @@ export default function PYTHONFundamentals() {
 <li>By using a const keyword</li>
 </ul>
 <p>Here is a list of the types of constants that we use in the C language:</p>
-<table class="table table-bordered">
+<table className="table table-bordered">
 <tbody>
 <tr>
 <td><strong>Type of Constant</strong></td>
