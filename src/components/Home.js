@@ -3,7 +3,7 @@ import AOS from 'aos';
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
 // import gate from './gate.jpeg';
-import code from './code.png';
+// import code from './code.png';
 import c from './c.jpg';
 import python from './python.png';
 import cpp from './cpp.png';
@@ -122,7 +122,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className='element-name'>Programming Language</div>
+        <div className='element-name'>Recomanded</div>
         <div className='element'>
           <div className='Two-card'>
             <Link to="/dsa" className="card" data-aos="fade-up"
@@ -148,7 +148,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className='Two-card'>
+          {/* <div className='Two-card'>
             <Link to="/" className="card" data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-offset="150"
@@ -171,7 +171,7 @@ export default function Home() {
                 <button href="/" className="btn btn-primary">Explore</button>
               </div>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 

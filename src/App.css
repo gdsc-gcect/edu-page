@@ -402,7 +402,7 @@ div.element{
   cursor: pointer;
 }
 .heading h2{
-  width: 9ch;
+  width: 13ch;
     border-right: 3px solid rgb(247, 3, 3);
     margin: 0px 0px 7px 9px;
     white-space: nowrap;
@@ -429,6 +429,11 @@ clip-path: circle(90% at 88% 44%);
   #carouselExampleIndicators{
     
   clip-path: circle(70% at 88% 44%);
+  }
+}
+@media screen and (min-width: 1181px) {
+  .Two-card{
+    width:70%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -703,9 +708,12 @@ color: #ececec;
   }
   .center-text{
     position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%)
+    top: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    color: antiquewhite;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
   .com{
     color: #b22424;
