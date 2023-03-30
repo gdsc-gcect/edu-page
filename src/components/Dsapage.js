@@ -22,7 +22,7 @@ export default function Dsapage() {
       <Link className='dsa-item'  to='/dsa/queue'>
        <div className='items-dsa' to='/dsa/queue'> QUEUE</div>
       </Link>
-      <Link className='dsa-item'  to='/'>
+      <Link className='dsa-item'  to='/dsa/binary'>
        <div className='items-dsa' to='/dsa/binary'> BINARY TREE</div>
       </Link>
       
@@ -35,8 +35,8 @@ export default function Dsapage() {
       <Link className='dsa-item'  to='/dsa/hashing'>
        <div className='items-dsa' to='/dsa/hashing'> HASHING</div>
       </Link>
-      <Link className='dsa-item'  to='/'>
-       <div className='items-dsa' to='/'> DYNAMIC PROGRAMMING</div>
+      <Link className='dsa-item'  to='/dsa/dynamic'>
+       <div className='items-dsa' to='/dsa/dynamic'> DYNAMIC PROGRAMMING</div>
       </Link>
       </div>
     </div>

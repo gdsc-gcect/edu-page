@@ -10,7 +10,7 @@ import cpp from './cpp.png';
 import java from './java.webp';
 import Algo from './Algorithms.jpg';
 import el from './el.webp';
-import big from './img.jpg';
+import big from './Ed.jpg';
 import be from './BE.png';
 import pro from './Program.jpg'
 import { Link } from 'react-router-dom';
@@ -83,7 +83,7 @@ export default function Home() {
                 <button href="/programming/c" className="btn btn-primary">Explore</button>
               </div>
             </Link>
-            <Link to="/" className="card" data-aos="fade-up"
+            <Link to="/programming/java" className="card" data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-offset="150"
               data-aos-easing="ease-in-sine"
@@ -92,7 +92,7 @@ export default function Home() {
               <div className="card-body">
                 <h5 className="card-title">JAVA</h5>
                 <p className="card-text"></p>
-                <button href="/" className="btn btn-primary">Explore</button>
+                <button href="/programming/java" className="btn btn-primary">Explore</button>
               </div>
             </Link>
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
               <div className="card-body">
                 <h5 className="card-title">C++</h5>
                 <p className="card-text"></p>
-                <button href="/" className="btn btn-primary">Explore</button>
+                <button href="/programming/Cpp" className="btn btn-primary">Explore</button>
               </div>
             </Link>
             <Link to="/programming/python" className="card" data-aos="fade-up"
