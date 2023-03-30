@@ -18,8 +18,8 @@ export default function Footer() {
          <hr className="featurette-divider"/>
         
         <footer className="container">
-    <p className="float-end"><Link onClick={scrollToTop} ><div className="fa fa-arrow-circle-o-up" aria-hidden="true"/>	</Link></p>
-    <p>&copy; Code Library &middot; <a href="/">Privacy</a> &middot; <a href="/">Terms</a></p>
+    <div className="float-end"><Link onClick={scrollToTop} ><div className="fa fa-arrow-circle-o-up" aria-hidden="true"/>	</Link></div>
+    <div>&copy; Code Library &middot; <a href="/">Privacy</a> &middot; <a href="/">Terms</a></div>
   </footer>
 
     </div>
