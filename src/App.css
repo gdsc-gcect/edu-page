@@ -553,6 +553,16 @@ clip-path: circle(90% at 88% 44%);
       -webkit-text-fill-color: transparent;
   
 }
+.java{
+  font-size: 40px;
+  margin-left: 10px;
+  font-family: emoji;
+      font-size: 25px;
+      background: -webkit-linear-gradient( #a67139, #2c97e3);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+}
 .side-lan{
   width: 26%;
   margin-top: 5px;

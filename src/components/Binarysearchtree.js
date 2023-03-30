@@ -184,7 +184,7 @@ c) The same rule is carried forward to all the sub-tree in tree.
                         Clifford Stein | 1313 Pages | 4.8 MB | English</p>
                     </div>
                     <p className="lead">
-                        <a className="btn btn-primary btn-lg" href={cormen} role="button"download ="Rema Thareja.pdf">Download</a>
+                        <a className="btn btn-primary btn-lg" href={cormen} role="button"download="Introduction to Algorithms, Third Edition.pdf">Download</a>
                     </p>
                 </div>
             </div>
